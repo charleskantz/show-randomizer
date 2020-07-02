@@ -1,0 +1,66 @@
+html {
+  background-color: whitesmoke;
+}
+
+.header {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.searchResultCard {
+  margin: 2em;
+  padding: 2em;
+  background-color: white;
+}
+
+.searchResultDesc {
+  margin-left: 2em;
+}
+
+.searchResultDesc button {
+  margin: 1em 0 0;
+  display: block;
+  height: 40px;
+  padding: 0 2em;
+  background-color: sienna;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.selectionCard {
+  position: fixed;
+  min-height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1em;
+  background-color: white;
+  border-top: 1px solid lightgray;
+  align-items: center;
+}
+
+.selectionShow {
+  margin: 1em
+}
+
+.startRandom {
+  height: 50px;
+  padding: 0 1em;
+  background-color: sienna;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: .75em;
+}
