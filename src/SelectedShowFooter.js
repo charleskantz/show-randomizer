@@ -1,9 +1,16 @@
 import React from 'react';
 
-function SelectedShows({ selections }) {
+function SelectedShowFooter({ selections, randomize, handleClear }) {
+
   return (
     <div className="selectionCard">
-        <button className="startRandom">Randomize</button>
+        <div className="randomButtons">
+          <button className="startRandom" onClick={randomize}>Randomize</button>
+          {selections.length > 0
+            ? <button className="clearRandom" onClick={() => handleClear([])}>Clear</button>
+            : null
+          }
+        </div>
         {selections.map(show => (
           <img
             src={
@@ -20,4 +27,4 @@ function SelectedShows({ selections }) {
   )
 }
 
-export default SelectedShows;
+export default SelectedShowFooter;

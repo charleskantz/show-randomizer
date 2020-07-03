@@ -3,16 +3,18 @@ import CallAPI from './CallAPI';
 import './Container.css'
 import _ from 'lodash';
 import SearchResultItem from './SearchResultItem';
-import SelectedShows from './SelectedShows';
+import SelectedShowFooter from './SelectedShowFooter';
 import Header from './Header';
+import RandomEpisode from './RandomEpisode';
 
 function Container() {
   const [ query, setQuery ] = useState("");
-  const [ isLoading, setIsLoading ] = useState(false);
+  const [ isLoading, setIsLoading ] = useState('');
   const [ searchResults, setSearchResults ] = useState([])
   const [ selections, setSelections ] = useState([]);
-  const [ singleRandomizer, setSingleRandomizer ] = useState('');
+  const [ randomShowId, setRandomShowId ] = useState('');
   const [ randomEpisode, setRandomEpisode ] = useState({});
+  const [ randomShowList, setRandomShowList ] = useState([])
 
   // search for a list of shows
   useEffect(() => {
@@ -20,35 +22,54 @@ function Container() {
       try {
         let res = await CallAPI.searchShows(query);
         if (res.length === 0) {
-          setSearchResults("No results found.");
-          setIsLoading(false);
+          setIsLoading('');
         } else {
           setSearchResults(res.map(show => show.show));
-          console.log("search", searchResults);
-          setIsLoading(false);
+          setIsLoading('');
         }
       } catch(err) {
         alert(err);
       }
     }
-    if (isLoading) { getShowData() };
+    if (isLoading === 'search') { getShowData() };
   }, [isLoading, query, searchResults]);
 
   // select random episode for one show
   useEffect(() => {
     async function pickRandom() {
       try {
-        let res = await CallAPI.getShowDetails(singleRandomizer);
-        let randomEp = _.sample(res._embedded.episodes);
-        setSingleRandomizer('');
-        setRandomEpisode(randomEp);
-        console.log(randomEp)
+        let res = await CallAPI.getShowDetails(randomShowId);
+        res.random = _.sample(res._embedded.episodes);
+        res.method = 'single';
+        setRandomShowId('');
+        setIsLoading('');
+        setRandomEpisode(res);
       } catch(err) {
         return new Error(err);
       }
     }
-    if (singleRandomizer) { pickRandom() };
-  }, [singleRandomizer]);
+    if (isLoading === 'single') { pickRandom() };
+  }, [randomShowId, isLoading]);
+
+  // select random episode from a selection of shows
+  useEffect(() => {
+    async function pickRandomFromShows() {
+      try {
+        if (randomShowList.length === 0) {
+          let res = await CallAPI.getSelectedShows(selections);
+          setRandomShowList(res);
+        }
+        let selectedShow = _.sample(randomShowList);
+        selectedShow.random = _.sample(selectedShow._embedded.episodes);
+        selectedShow.method = 'multi';
+        setIsLoading('');
+        setRandomEpisode(selectedShow);
+      } catch (err) {
+        return new Error(err);
+      }
+    }
+    if (isLoading === 'multi') { pickRandomFromShows() };
+  }, [randomShowList, isLoading, selections]);
 
   // search form handling
   const handleChange = evt => {
@@ -58,21 +79,19 @@ function Container() {
   // search form submit handling
   const handleSubmit = evt => {
     evt.preventDefault()
-    setIsLoading(true);
+    setIsLoading('search');
   }
 
   // random episode for a single show
   const getRandomEpisode = evt => {
-    setSingleRandomizer(evt.target.id);
+    setIsLoading('single');
+    setRandomShowId(evt.target.id);
   }
 
   // selecting a show
   const handleSelection = evt => {
-    console.log("selections before", selections)
     let show = searchResults.find(show => show.id === parseInt(evt.target.id));
-    console.log("show", show)
     setSelections(selections => [...selections, show]);
-    console.log("selections after", selections)
   }
 
   // search result list
@@ -90,10 +109,9 @@ function Container() {
     }
   }
 
-  const renderSelections = () => {
-    return (
-      <SelectedShows selections={selections} />
-    )
+  // random episode from list of shows
+  const handleRandomize = async () => {
+    setIsLoading('multi');
   }
 
   return (
@@ -103,15 +121,23 @@ function Container() {
         handleChange={handleChange}
         handleSubmit={handleSubmit}
       />
-      {isLoading
-        ? <h3>Searching...</h3>
+      {Object.keys(randomEpisode).length > 0
+        ? <RandomEpisode
+            episode={randomEpisode}
+            setRandomEpisode={setRandomEpisode}
+            setIsLoading={setIsLoading}
+          />
+        : isLoading
+          ? <h3>Hold on...</h3>
         : searchResults.length > 0
-        ? renderResults()
-        : null
+          ? renderResults()
+          : null
       }
-      <footer>
-        {renderSelections()}
-      </footer>
+      <SelectedShowFooter
+        selections={selections}
+        randomize={handleRandomize}
+        handleClear={setSelections}
+      />
     </>
   )
 }

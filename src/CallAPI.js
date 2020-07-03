@@ -18,6 +18,20 @@ class CallAPI {
       return new Error(err);
     }
   }
+
+  static async getSelectedShows(shows) {
+    try {
+      let res = await shows.map(async show => {
+        let response = await this.getShowDetails(show.id);
+        return response;
+      });
+
+      let allResults = await Promise.all(res);
+      return allResults;
+    } catch(err) {
+      return new Error(err);
+    }
+  }
 }
 
 export default CallAPI;

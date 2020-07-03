@@ -2,6 +2,10 @@ html {
   background-color: whitesmoke;
 }
 
+#root {
+  padding-bottom: 110px;
+}
+
 .header {
   text-align: center;
 }
@@ -14,11 +18,35 @@ h3 {
   margin: 2em;
   padding: 2em;
   background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+}
+
+.searchResultDetails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.searchResultDetails img {
+  margin: 0 1em 1em;
 }
 
 .searchResultDesc {
-  margin-left: 2em;
+  min-width: 260px;
+  /* margin-left: 2em;
+  margin-top: 0em; */
+  flex: 1;
 }
+
+/* @media (max-width: 563px) {
+  .searchResultDesc {
+    margin-left: 0em;
+    margin-top: 2em;
+    flex: 1;
+  }
+} */
 
 .searchResultDesc button {
   margin: 1em 0 0;
@@ -34,7 +62,7 @@ h3 {
 
 .selectionCard {
   position: fixed;
-  min-height: 70px;
+  min-height: 80px;
   display: flex;
   flex-wrap: wrap;
   bottom: 0;
@@ -50,17 +78,33 @@ h3 {
   margin: 1em
 }
 
+.randomButtons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: .75em;
+}
+
 .startRandom {
-  height: 50px;
+  height: 40px;
   padding: 0 1em;
   background-color: sienna;
   color: white;
   font-weight: bold;
-  font-size: 20px;
   border: none;
   border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: .75em;
+}
+
+.clearRandom {
+  height: 30px;
+  padding: 0 1em;
+  background-color: white;
+  color: gray;
+  border: none;
+  margin-top: 8px;
 }

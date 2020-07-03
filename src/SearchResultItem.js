@@ -7,7 +7,7 @@ function SearchResultItem({ show, handleSelection, getRandomEpisode }) {
       key={show.id}
     >
       <h3>{show.name}</h3>
-      <div style={{ display: "flex" }}>
+      <div className="searchResultDetails">
         <img
           src={
             show.image?.medium ||
@@ -18,7 +18,7 @@ function SearchResultItem({ show, handleSelection, getRandomEpisode }) {
           alt="show-img"
         />
         <div className="searchResultDesc">
-          {show.summary.slice(3, -4)}
+          {show.summary?.slice(3, -4)}
           <button id={show.id} onClick={handleSelection}>Add to Randomizer</button>
           <button id={show.id} onClick={getRandomEpisode}>Get Random Episode Now</button>
         </div>
