@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import CallAPI from './CallAPI';
-import './Container.css'
 import _ from 'lodash';
 import SearchResultItem from './SearchResultItem';
 import SelectedShowFooter from './SelectedShowFooter';
 import Header from './Header';
 import RandomEpisode from './RandomEpisode';
+import Spinner from './Spinner';
 
 function Container() {
   const [ query, setQuery ] = useState("");
@@ -115,30 +115,36 @@ function Container() {
   }
 
   return (
-    <>
-      <Header
-        query={query}
-        handleChange={handleChange}
-        handleSubmit={handleSubmit}
-      />
+    <div className="relative">
+
+      {isLoading ? <Spinner /> : null}
+
       {Object.keys(randomEpisode).length > 0
         ? <RandomEpisode
             episode={randomEpisode}
             setRandomEpisode={setRandomEpisode}
             setIsLoading={setIsLoading}
           />
-        : isLoading
-          ? <h3>Hold on...</h3>
-        : searchResults.length > 0
-          ? renderResults()
-          : null
+        : null
       }
-      <SelectedShowFooter
-        selections={selections}
-        randomize={handleRandomize}
-        handleClear={setSelections}
+
+      <Header
+        query={query}
+        handleChange={handleChange}
+        handleSubmit={handleSubmit}
       />
-    </>
+
+    {searchResults.length > 0 ? renderResults() : null}
+
+    {selections.length > 0
+      ? <SelectedShowFooter
+          selections={selections}
+          randomize={handleRandomize}
+          handleClear={setSelections}
+        />
+      : null
+    }
+    </div>
   )
 }
 
