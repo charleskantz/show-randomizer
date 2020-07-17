@@ -1,13 +1,12 @@
 import React from 'react';
 import CardImage from './CardImage';
 
-function SearchResultItem({ show, handleSelection, getRandomEpisode }) {
+function SearchResultItem({ show, handleSelection, getRandomEpisode, selected }) {
 
-  const re = /<[^>]*>/g;
+  const regExNoTags = /<[^>]*>/g;
 
   return (
     <div
-      key={show.id}
       className="w-10/12 mx-auto my-6 md:flex max-w-screen-lg"
     >
       <CardImage image={show.image?.medium} />
@@ -20,15 +19,16 @@ function SearchResultItem({ show, handleSelection, getRandomEpisode }) {
             {show.name}
           </div>
           <p className="text-show-300 text-base">
-          {show?.summary?.replace(re, '')}
+          {show?.summary?.replace(regExNoTags, '')}
           </p>
         </div>
         <div className="flex items-center">
           <div>
             <button
+              disabled={selected}
               id={show.id}
               onClick={handleSelection}
-              className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full"
+              className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full disabled:opacity-50 disabled:cursor-default"
             >
               <strong>+</strong> Add
             </button>

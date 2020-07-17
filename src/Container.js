@@ -97,13 +97,16 @@ function Container() {
   // search result list
   const renderResults = () => {
     if (Array.isArray(searchResults)) {
-      return searchResults.map(show => (
-        <SearchResultItem
+      return searchResults.map(show => {
+        const selected = selections.includes(show);
+        return <SearchResultItem
+          key={show.id}
           show={show}
           getRandomEpisode={getRandomEpisode}
           handleSelection={handleSelection}
+          selected={selected}
         />
-      ))
+      })
     } else {
       return <h3>No results found.</h3>;
     }

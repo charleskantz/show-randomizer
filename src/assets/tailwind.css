@@ -24,6 +24,16 @@ html {
   background-image: url('https://static.tvmaze.com/images/no-img/no-img-portrait-text.png');
 }
 
+.closeBtn {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  border: none;
+  background: none;
+}
+
+
+
 /* Change Autocomplete styles in Chrome*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -37,4 +47,14 @@ select:-webkit-autofill:focus {
   -webkit-text-fill-color: #8A8DB7;
   -webkit-box-shadow: 0 0 0px 1000px #131325 inset;
   transition: background-color 5000s ease-in-out 0s;
+}
+
+.modalBG {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  z-index: 10;
 }

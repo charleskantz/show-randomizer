@@ -1,7 +1,6 @@
 import React from 'react';
 
 function CardImage(image) {
-  console.log("IMAGE", image, "img.img?", image.image);
   if (image.image) {
     return (
       <div

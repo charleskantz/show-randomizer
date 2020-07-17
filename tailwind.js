@@ -48,6 +48,9 @@ module.exports = {
     },
   },
   purge: [],
-  variants: {},
+  variants: {
+    opacity: ['responsive', 'hover', 'focus', 'disabled'],
+    cursor: ['responsive', 'disabled'],
+  },
   plugins: [],
 }

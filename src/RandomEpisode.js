@@ -1,9 +1,17 @@
 import React from 'react';
 import _ from 'lodash';
-import './RandomEpisode.css'
+
+/*
+  Popup that shows a randomly selected episdode
+
+*/
 
 function RandomEpisode({ episode, setRandomEpisode, setIsLoading }) {
 
+  // for removing the occasional HTML tag found in text
+  const regExNoTags = /<[^>]*>/g;
+
+  // grab another random ep from list
   const handleRedo = ()=> {
     if (episode.method === 'single') {
       let random = _.sample(episode._embedded.episodes);
@@ -18,22 +26,40 @@ function RandomEpisode({ episode, setRandomEpisode, setIsLoading }) {
     }
   }
 
-  const handleClose = () => {
-    setRandomEpisode({});
+  // make sure we're actually clicking the close btn or modal area
+  const handleClose = evt => {
+    console.log("target", evt.target.id);
+    if (evt.target.id === 'modalBG' || evt.target.id === 'closeBtn') {
+      setRandomEpisode({});
+    }
   }
 
-  console.log("episode", episode)
-
   return (
-    <div className="modalBG">
-      <div className="modalCard">
-        <button className="closeBtn" onClick={handleClose}>X</button>
-        <h5>Your Random Episode</h5>
-        <h1>{episode.random.name}</h1>
-        <p><small>{episode.name}</small></p>
-        <p>{`Season ${episode.random.season} Episode ${episode.random.number}`}</p>
-        <p>{episode.random?.summary?.slice(3, -4)}</p>
-        <button className="btn" onClick={handleRedo} >Naw, try another</button>
+    <div className="modalBG bg-overlay-900" onClick={handleClose} id="modalBG">
+      <div className="z-20 fixed p-6 rounded-big w-3/4 mx-auto my-6 max-w-screen-sm card-bg md:w-1/2 text-center">
+        <button className="closeBtn" onClick={handleClose} id="closeBtn">X</button>
+        <p className="text-sm italic text-show-400">
+          Your Random Episode
+        </p>
+        <div className="text-gray-100 font-bold text-2xl mb-2 w-4/5 mx-auto flex flex-col justify-center h-20 pt-2">
+          {episode.random.name}
+        </div>
+        <p className="text-lg text-show-300">
+          {episode.name}
+        </p>
+        <p className="text-sm text-gray-100 italic"
+        >
+          {`Season ${episode.random.season} Episode ${episode.random.number}`}
+        </p>
+        <button
+          onClick={handleRedo}
+          className="bg-blue-500 mt-4 hover:bg-blue-700 text-white py-2 px-4 rounded-full"
+        >
+          Naw, try another
+        </button>
+        <p className="text-left text-gray-300 mt-6">
+          {episode.random?.summary?.replace(regExNoTags, '')}
+        </p>
       </div>
     </div>
   )
