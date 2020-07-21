@@ -2,13 +2,17 @@ import React from 'react';
 
 function SelectedShowItem({ id, showImg, handleRemove }) {
   return (
-    <img
+    <div
       id={id}
-      src={showImg}
-      alt="show-img"
-      className="h-20 w-20 object-cover m-4 rounded border-2 border-show-400"
+      className="selected-show-img relative inline-block text-show-300 cursor-pointer text-lg font-bold"
       onClick={evt => handleRemove(evt)}
-    />
+    >
+      <img
+        src={showImg}
+        alt="show cover art"
+        className="h-20 w-auto object-cover m-2 rounded border-2 border-show-400"
+      />
+    </div>
   )
 }
 

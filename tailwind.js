@@ -3,6 +3,11 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
+    inset: {
+      '0': 0,
+      'auto': 'auto',
+      '1': '1rem',
+    },
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
@@ -51,6 +56,7 @@ module.exports = {
   variants: {
     opacity: ['responsive', 'hover', 'focus', 'disabled'],
     cursor: ['responsive', 'disabled'],
+    padding: ['responsive', 'last'],
   },
   plugins: [],
 }

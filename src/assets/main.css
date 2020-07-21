@@ -9280,6 +9280,696 @@ video {
   padding-left: 1px;
 }
 
+.last\:p-0:last-child {
+  padding: 0;
+}
+
+.last\:p-1:last-child {
+  padding: 0.25rem;
+}
+
+.last\:p-2:last-child {
+  padding: 0.5rem;
+}
+
+.last\:p-3:last-child {
+  padding: 0.75rem;
+}
+
+.last\:p-4:last-child {
+  padding: 1rem;
+}
+
+.last\:p-5:last-child {
+  padding: 1.25rem;
+}
+
+.last\:p-6:last-child {
+  padding: 1.5rem;
+}
+
+.last\:p-8:last-child {
+  padding: 2rem;
+}
+
+.last\:p-10:last-child {
+  padding: 2.5rem;
+}
+
+.last\:p-12:last-child {
+  padding: 3rem;
+}
+
+.last\:p-16:last-child {
+  padding: 4rem;
+}
+
+.last\:p-20:last-child {
+  padding: 5rem;
+}
+
+.last\:p-24:last-child {
+  padding: 6rem;
+}
+
+.last\:p-32:last-child {
+  padding: 8rem;
+}
+
+.last\:p-40:last-child {
+  padding: 10rem;
+}
+
+.last\:p-48:last-child {
+  padding: 12rem;
+}
+
+.last\:p-56:last-child {
+  padding: 14rem;
+}
+
+.last\:p-60:last-child {
+  padding: 15rem;
+}
+
+.last\:p-64:last-child {
+  padding: 16rem;
+}
+
+.last\:p-72:last-child {
+  padding: 18rem;
+}
+
+.last\:p-84:last-child {
+  padding: 21rem;
+}
+
+.last\:p-96:last-child {
+  padding: 24rem;
+}
+
+.last\:p-px:last-child {
+  padding: 1px;
+}
+
+.last\:py-0:last-child {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.last\:px-0:last-child {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.last\:py-1:last-child {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.last\:px-1:last-child {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.last\:py-2:last-child {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.last\:px-2:last-child {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.last\:py-3:last-child {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.last\:px-3:last-child {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.last\:py-4:last-child {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.last\:px-4:last-child {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.last\:py-5:last-child {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.last\:px-5:last-child {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.last\:py-6:last-child {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.last\:px-6:last-child {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.last\:py-8:last-child {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.last\:px-8:last-child {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.last\:py-10:last-child {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.last\:px-10:last-child {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.last\:py-12:last-child {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.last\:px-12:last-child {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.last\:py-16:last-child {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.last\:px-16:last-child {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.last\:py-20:last-child {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.last\:px-20:last-child {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.last\:py-24:last-child {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.last\:px-24:last-child {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.last\:py-32:last-child {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.last\:px-32:last-child {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.last\:py-40:last-child {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.last\:px-40:last-child {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.last\:py-48:last-child {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.last\:px-48:last-child {
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.last\:py-56:last-child {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.last\:px-56:last-child {
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+
+.last\:py-60:last-child {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.last\:px-60:last-child {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.last\:py-64:last-child {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
+.last\:px-64:last-child {
+  padding-left: 16rem;
+  padding-right: 16rem;
+}
+
+.last\:py-72:last-child {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+}
+
+.last\:px-72:last-child {
+  padding-left: 18rem;
+  padding-right: 18rem;
+}
+
+.last\:py-84:last-child {
+  padding-top: 21rem;
+  padding-bottom: 21rem;
+}
+
+.last\:px-84:last-child {
+  padding-left: 21rem;
+  padding-right: 21rem;
+}
+
+.last\:py-96:last-child {
+  padding-top: 24rem;
+  padding-bottom: 24rem;
+}
+
+.last\:px-96:last-child {
+  padding-left: 24rem;
+  padding-right: 24rem;
+}
+
+.last\:py-px:last-child {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.last\:px-px:last-child {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.last\:pt-0:last-child {
+  padding-top: 0;
+}
+
+.last\:pr-0:last-child {
+  padding-right: 0;
+}
+
+.last\:pb-0:last-child {
+  padding-bottom: 0;
+}
+
+.last\:pl-0:last-child {
+  padding-left: 0;
+}
+
+.last\:pt-1:last-child {
+  padding-top: 0.25rem;
+}
+
+.last\:pr-1:last-child {
+  padding-right: 0.25rem;
+}
+
+.last\:pb-1:last-child {
+  padding-bottom: 0.25rem;
+}
+
+.last\:pl-1:last-child {
+  padding-left: 0.25rem;
+}
+
+.last\:pt-2:last-child {
+  padding-top: 0.5rem;
+}
+
+.last\:pr-2:last-child {
+  padding-right: 0.5rem;
+}
+
+.last\:pb-2:last-child {
+  padding-bottom: 0.5rem;
+}
+
+.last\:pl-2:last-child {
+  padding-left: 0.5rem;
+}
+
+.last\:pt-3:last-child {
+  padding-top: 0.75rem;
+}
+
+.last\:pr-3:last-child {
+  padding-right: 0.75rem;
+}
+
+.last\:pb-3:last-child {
+  padding-bottom: 0.75rem;
+}
+
+.last\:pl-3:last-child {
+  padding-left: 0.75rem;
+}
+
+.last\:pt-4:last-child {
+  padding-top: 1rem;
+}
+
+.last\:pr-4:last-child {
+  padding-right: 1rem;
+}
+
+.last\:pb-4:last-child {
+  padding-bottom: 1rem;
+}
+
+.last\:pl-4:last-child {
+  padding-left: 1rem;
+}
+
+.last\:pt-5:last-child {
+  padding-top: 1.25rem;
+}
+
+.last\:pr-5:last-child {
+  padding-right: 1.25rem;
+}
+
+.last\:pb-5:last-child {
+  padding-bottom: 1.25rem;
+}
+
+.last\:pl-5:last-child {
+  padding-left: 1.25rem;
+}
+
+.last\:pt-6:last-child {
+  padding-top: 1.5rem;
+}
+
+.last\:pr-6:last-child {
+  padding-right: 1.5rem;
+}
+
+.last\:pb-6:last-child {
+  padding-bottom: 1.5rem;
+}
+
+.last\:pl-6:last-child {
+  padding-left: 1.5rem;
+}
+
+.last\:pt-8:last-child {
+  padding-top: 2rem;
+}
+
+.last\:pr-8:last-child {
+  padding-right: 2rem;
+}
+
+.last\:pb-8:last-child {
+  padding-bottom: 2rem;
+}
+
+.last\:pl-8:last-child {
+  padding-left: 2rem;
+}
+
+.last\:pt-10:last-child {
+  padding-top: 2.5rem;
+}
+
+.last\:pr-10:last-child {
+  padding-right: 2.5rem;
+}
+
+.last\:pb-10:last-child {
+  padding-bottom: 2.5rem;
+}
+
+.last\:pl-10:last-child {
+  padding-left: 2.5rem;
+}
+
+.last\:pt-12:last-child {
+  padding-top: 3rem;
+}
+
+.last\:pr-12:last-child {
+  padding-right: 3rem;
+}
+
+.last\:pb-12:last-child {
+  padding-bottom: 3rem;
+}
+
+.last\:pl-12:last-child {
+  padding-left: 3rem;
+}
+
+.last\:pt-16:last-child {
+  padding-top: 4rem;
+}
+
+.last\:pr-16:last-child {
+  padding-right: 4rem;
+}
+
+.last\:pb-16:last-child {
+  padding-bottom: 4rem;
+}
+
+.last\:pl-16:last-child {
+  padding-left: 4rem;
+}
+
+.last\:pt-20:last-child {
+  padding-top: 5rem;
+}
+
+.last\:pr-20:last-child {
+  padding-right: 5rem;
+}
+
+.last\:pb-20:last-child {
+  padding-bottom: 5rem;
+}
+
+.last\:pl-20:last-child {
+  padding-left: 5rem;
+}
+
+.last\:pt-24:last-child {
+  padding-top: 6rem;
+}
+
+.last\:pr-24:last-child {
+  padding-right: 6rem;
+}
+
+.last\:pb-24:last-child {
+  padding-bottom: 6rem;
+}
+
+.last\:pl-24:last-child {
+  padding-left: 6rem;
+}
+
+.last\:pt-32:last-child {
+  padding-top: 8rem;
+}
+
+.last\:pr-32:last-child {
+  padding-right: 8rem;
+}
+
+.last\:pb-32:last-child {
+  padding-bottom: 8rem;
+}
+
+.last\:pl-32:last-child {
+  padding-left: 8rem;
+}
+
+.last\:pt-40:last-child {
+  padding-top: 10rem;
+}
+
+.last\:pr-40:last-child {
+  padding-right: 10rem;
+}
+
+.last\:pb-40:last-child {
+  padding-bottom: 10rem;
+}
+
+.last\:pl-40:last-child {
+  padding-left: 10rem;
+}
+
+.last\:pt-48:last-child {
+  padding-top: 12rem;
+}
+
+.last\:pr-48:last-child {
+  padding-right: 12rem;
+}
+
+.last\:pb-48:last-child {
+  padding-bottom: 12rem;
+}
+
+.last\:pl-48:last-child {
+  padding-left: 12rem;
+}
+
+.last\:pt-56:last-child {
+  padding-top: 14rem;
+}
+
+.last\:pr-56:last-child {
+  padding-right: 14rem;
+}
+
+.last\:pb-56:last-child {
+  padding-bottom: 14rem;
+}
+
+.last\:pl-56:last-child {
+  padding-left: 14rem;
+}
+
+.last\:pt-60:last-child {
+  padding-top: 15rem;
+}
+
+.last\:pr-60:last-child {
+  padding-right: 15rem;
+}
+
+.last\:pb-60:last-child {
+  padding-bottom: 15rem;
+}
+
+.last\:pl-60:last-child {
+  padding-left: 15rem;
+}
+
+.last\:pt-64:last-child {
+  padding-top: 16rem;
+}
+
+.last\:pr-64:last-child {
+  padding-right: 16rem;
+}
+
+.last\:pb-64:last-child {
+  padding-bottom: 16rem;
+}
+
+.last\:pl-64:last-child {
+  padding-left: 16rem;
+}
+
+.last\:pt-72:last-child {
+  padding-top: 18rem;
+}
+
+.last\:pr-72:last-child {
+  padding-right: 18rem;
+}
+
+.last\:pb-72:last-child {
+  padding-bottom: 18rem;
+}
+
+.last\:pl-72:last-child {
+  padding-left: 18rem;
+}
+
+.last\:pt-84:last-child {
+  padding-top: 21rem;
+}
+
+.last\:pr-84:last-child {
+  padding-right: 21rem;
+}
+
+.last\:pb-84:last-child {
+  padding-bottom: 21rem;
+}
+
+.last\:pl-84:last-child {
+  padding-left: 21rem;
+}
+
+.last\:pt-96:last-child {
+  padding-top: 24rem;
+}
+
+.last\:pr-96:last-child {
+  padding-right: 24rem;
+}
+
+.last\:pb-96:last-child {
+  padding-bottom: 24rem;
+}
+
+.last\:pl-96:last-child {
+  padding-left: 24rem;
+}
+
+.last\:pt-px:last-child {
+  padding-top: 1px;
+}
+
+.last\:pr-px:last-child {
+  padding-right: 1px;
+}
+
+.last\:pb-px:last-child {
+  padding-bottom: 1px;
+}
+
+.last\:pl-px:last-child {
+  padding-left: 1px;
+}
+
 .placeholder-transparent::placeholder {
   color: transparent;
 }
@@ -10583,6 +11273,13 @@ video {
   left: 0;
 }
 
+.inset-1 {
+  top: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+}
+
 .inset-auto {
   top: auto;
   right: auto;
@@ -10598,6 +11295,16 @@ video {
 .inset-x-0 {
   right: 0;
   left: 0;
+}
+
+.inset-y-1 {
+  top: 1rem;
+  bottom: 1rem;
+}
+
+.inset-x-1 {
+  right: 1rem;
+  left: 1rem;
 }
 
 .inset-y-auto {
@@ -10624,6 +11331,22 @@ video {
 
 .left-0 {
   left: 0;
+}
+
+.top-1 {
+  top: 1rem;
+}
+
+.right-1 {
+  right: 1rem;
+}
+
+.bottom-1 {
+  bottom: 1rem;
+}
+
+.left-1 {
+  left: 1rem;
 }
 
 .top-auto {
@@ -15844,15 +16567,7 @@ html {
   background-image: url('https://static.tvmaze.com/images/no-img/no-img-portrait-text.png');
 }
 
-.closeBtn {
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  border: none;
-  background: none;
-}
-
-/* Change Autocomplete styles in Chrome*/
+/* Change Autocomplete styles in Chrome */
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -15869,6 +16584,8 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
+/* cover screen for modal */
+
 .modalBG {
   position: fixed;
   width: 100vw;
@@ -15877,6 +16594,37 @@ select:-webkit-autofill:focus {
   display: flex;
   justify-content: center;
   z-index: 10;
+}
+
+.selected-show-img:hover:after{
+  content:'x';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-show-img:hover img {
+  opacity: .5;
+}
+
+.anim-spin {
+  display: inline-block;
+  transform: rotate(0deg);
+  transition: transform .3s ease-in-out;
+}
+
+.redo-button:hover > .anim-spin {
+  transform: rotate(360deg);
+  text-rendering: geometricPrecision;
+}
+
+.add-button:hover > .anim-spin {
+  transform: scale(1.1);
 }
 
 @media (min-width: 640px) {
@@ -24554,6 +25302,696 @@ select:-webkit-autofill:focus {
     padding-left: 1px;
   }
 
+  .sm\:last\:p-0:last-child {
+    padding: 0;
+  }
+
+  .sm\:last\:p-1:last-child {
+    padding: 0.25rem;
+  }
+
+  .sm\:last\:p-2:last-child {
+    padding: 0.5rem;
+  }
+
+  .sm\:last\:p-3:last-child {
+    padding: 0.75rem;
+  }
+
+  .sm\:last\:p-4:last-child {
+    padding: 1rem;
+  }
+
+  .sm\:last\:p-5:last-child {
+    padding: 1.25rem;
+  }
+
+  .sm\:last\:p-6:last-child {
+    padding: 1.5rem;
+  }
+
+  .sm\:last\:p-8:last-child {
+    padding: 2rem;
+  }
+
+  .sm\:last\:p-10:last-child {
+    padding: 2.5rem;
+  }
+
+  .sm\:last\:p-12:last-child {
+    padding: 3rem;
+  }
+
+  .sm\:last\:p-16:last-child {
+    padding: 4rem;
+  }
+
+  .sm\:last\:p-20:last-child {
+    padding: 5rem;
+  }
+
+  .sm\:last\:p-24:last-child {
+    padding: 6rem;
+  }
+
+  .sm\:last\:p-32:last-child {
+    padding: 8rem;
+  }
+
+  .sm\:last\:p-40:last-child {
+    padding: 10rem;
+  }
+
+  .sm\:last\:p-48:last-child {
+    padding: 12rem;
+  }
+
+  .sm\:last\:p-56:last-child {
+    padding: 14rem;
+  }
+
+  .sm\:last\:p-60:last-child {
+    padding: 15rem;
+  }
+
+  .sm\:last\:p-64:last-child {
+    padding: 16rem;
+  }
+
+  .sm\:last\:p-72:last-child {
+    padding: 18rem;
+  }
+
+  .sm\:last\:p-84:last-child {
+    padding: 21rem;
+  }
+
+  .sm\:last\:p-96:last-child {
+    padding: 24rem;
+  }
+
+  .sm\:last\:p-px:last-child {
+    padding: 1px;
+  }
+
+  .sm\:last\:py-0:last-child {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .sm\:last\:px-0:last-child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sm\:last\:py-1:last-child {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .sm\:last\:px-1:last-child {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .sm\:last\:py-2:last-child {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .sm\:last\:px-2:last-child {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .sm\:last\:py-3:last-child {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .sm\:last\:px-3:last-child {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .sm\:last\:py-4:last-child {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .sm\:last\:px-4:last-child {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sm\:last\:py-5:last-child {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .sm\:last\:px-5:last-child {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .sm\:last\:py-6:last-child {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .sm\:last\:px-6:last-child {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .sm\:last\:py-8:last-child {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .sm\:last\:px-8:last-child {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .sm\:last\:py-10:last-child {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .sm\:last\:px-10:last-child {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .sm\:last\:py-12:last-child {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .sm\:last\:px-12:last-child {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .sm\:last\:py-16:last-child {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .sm\:last\:px-16:last-child {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .sm\:last\:py-20:last-child {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .sm\:last\:px-20:last-child {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .sm\:last\:py-24:last-child {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .sm\:last\:px-24:last-child {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .sm\:last\:py-32:last-child {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .sm\:last\:px-32:last-child {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .sm\:last\:py-40:last-child {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .sm\:last\:px-40:last-child {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .sm\:last\:py-48:last-child {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .sm\:last\:px-48:last-child {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .sm\:last\:py-56:last-child {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+
+  .sm\:last\:px-56:last-child {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .sm\:last\:py-60:last-child {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+
+  .sm\:last\:px-60:last-child {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .sm\:last\:py-64:last-child {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  .sm\:last\:px-64:last-child {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .sm\:last\:py-72:last-child {
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+  }
+
+  .sm\:last\:px-72:last-child {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .sm\:last\:py-84:last-child {
+    padding-top: 21rem;
+    padding-bottom: 21rem;
+  }
+
+  .sm\:last\:px-84:last-child {
+    padding-left: 21rem;
+    padding-right: 21rem;
+  }
+
+  .sm\:last\:py-96:last-child {
+    padding-top: 24rem;
+    padding-bottom: 24rem;
+  }
+
+  .sm\:last\:px-96:last-child {
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+
+  .sm\:last\:py-px:last-child {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .sm\:last\:px-px:last-child {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .sm\:last\:pt-0:last-child {
+    padding-top: 0;
+  }
+
+  .sm\:last\:pr-0:last-child {
+    padding-right: 0;
+  }
+
+  .sm\:last\:pb-0:last-child {
+    padding-bottom: 0;
+  }
+
+  .sm\:last\:pl-0:last-child {
+    padding-left: 0;
+  }
+
+  .sm\:last\:pt-1:last-child {
+    padding-top: 0.25rem;
+  }
+
+  .sm\:last\:pr-1:last-child {
+    padding-right: 0.25rem;
+  }
+
+  .sm\:last\:pb-1:last-child {
+    padding-bottom: 0.25rem;
+  }
+
+  .sm\:last\:pl-1:last-child {
+    padding-left: 0.25rem;
+  }
+
+  .sm\:last\:pt-2:last-child {
+    padding-top: 0.5rem;
+  }
+
+  .sm\:last\:pr-2:last-child {
+    padding-right: 0.5rem;
+  }
+
+  .sm\:last\:pb-2:last-child {
+    padding-bottom: 0.5rem;
+  }
+
+  .sm\:last\:pl-2:last-child {
+    padding-left: 0.5rem;
+  }
+
+  .sm\:last\:pt-3:last-child {
+    padding-top: 0.75rem;
+  }
+
+  .sm\:last\:pr-3:last-child {
+    padding-right: 0.75rem;
+  }
+
+  .sm\:last\:pb-3:last-child {
+    padding-bottom: 0.75rem;
+  }
+
+  .sm\:last\:pl-3:last-child {
+    padding-left: 0.75rem;
+  }
+
+  .sm\:last\:pt-4:last-child {
+    padding-top: 1rem;
+  }
+
+  .sm\:last\:pr-4:last-child {
+    padding-right: 1rem;
+  }
+
+  .sm\:last\:pb-4:last-child {
+    padding-bottom: 1rem;
+  }
+
+  .sm\:last\:pl-4:last-child {
+    padding-left: 1rem;
+  }
+
+  .sm\:last\:pt-5:last-child {
+    padding-top: 1.25rem;
+  }
+
+  .sm\:last\:pr-5:last-child {
+    padding-right: 1.25rem;
+  }
+
+  .sm\:last\:pb-5:last-child {
+    padding-bottom: 1.25rem;
+  }
+
+  .sm\:last\:pl-5:last-child {
+    padding-left: 1.25rem;
+  }
+
+  .sm\:last\:pt-6:last-child {
+    padding-top: 1.5rem;
+  }
+
+  .sm\:last\:pr-6:last-child {
+    padding-right: 1.5rem;
+  }
+
+  .sm\:last\:pb-6:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  .sm\:last\:pl-6:last-child {
+    padding-left: 1.5rem;
+  }
+
+  .sm\:last\:pt-8:last-child {
+    padding-top: 2rem;
+  }
+
+  .sm\:last\:pr-8:last-child {
+    padding-right: 2rem;
+  }
+
+  .sm\:last\:pb-8:last-child {
+    padding-bottom: 2rem;
+  }
+
+  .sm\:last\:pl-8:last-child {
+    padding-left: 2rem;
+  }
+
+  .sm\:last\:pt-10:last-child {
+    padding-top: 2.5rem;
+  }
+
+  .sm\:last\:pr-10:last-child {
+    padding-right: 2.5rem;
+  }
+
+  .sm\:last\:pb-10:last-child {
+    padding-bottom: 2.5rem;
+  }
+
+  .sm\:last\:pl-10:last-child {
+    padding-left: 2.5rem;
+  }
+
+  .sm\:last\:pt-12:last-child {
+    padding-top: 3rem;
+  }
+
+  .sm\:last\:pr-12:last-child {
+    padding-right: 3rem;
+  }
+
+  .sm\:last\:pb-12:last-child {
+    padding-bottom: 3rem;
+  }
+
+  .sm\:last\:pl-12:last-child {
+    padding-left: 3rem;
+  }
+
+  .sm\:last\:pt-16:last-child {
+    padding-top: 4rem;
+  }
+
+  .sm\:last\:pr-16:last-child {
+    padding-right: 4rem;
+  }
+
+  .sm\:last\:pb-16:last-child {
+    padding-bottom: 4rem;
+  }
+
+  .sm\:last\:pl-16:last-child {
+    padding-left: 4rem;
+  }
+
+  .sm\:last\:pt-20:last-child {
+    padding-top: 5rem;
+  }
+
+  .sm\:last\:pr-20:last-child {
+    padding-right: 5rem;
+  }
+
+  .sm\:last\:pb-20:last-child {
+    padding-bottom: 5rem;
+  }
+
+  .sm\:last\:pl-20:last-child {
+    padding-left: 5rem;
+  }
+
+  .sm\:last\:pt-24:last-child {
+    padding-top: 6rem;
+  }
+
+  .sm\:last\:pr-24:last-child {
+    padding-right: 6rem;
+  }
+
+  .sm\:last\:pb-24:last-child {
+    padding-bottom: 6rem;
+  }
+
+  .sm\:last\:pl-24:last-child {
+    padding-left: 6rem;
+  }
+
+  .sm\:last\:pt-32:last-child {
+    padding-top: 8rem;
+  }
+
+  .sm\:last\:pr-32:last-child {
+    padding-right: 8rem;
+  }
+
+  .sm\:last\:pb-32:last-child {
+    padding-bottom: 8rem;
+  }
+
+  .sm\:last\:pl-32:last-child {
+    padding-left: 8rem;
+  }
+
+  .sm\:last\:pt-40:last-child {
+    padding-top: 10rem;
+  }
+
+  .sm\:last\:pr-40:last-child {
+    padding-right: 10rem;
+  }
+
+  .sm\:last\:pb-40:last-child {
+    padding-bottom: 10rem;
+  }
+
+  .sm\:last\:pl-40:last-child {
+    padding-left: 10rem;
+  }
+
+  .sm\:last\:pt-48:last-child {
+    padding-top: 12rem;
+  }
+
+  .sm\:last\:pr-48:last-child {
+    padding-right: 12rem;
+  }
+
+  .sm\:last\:pb-48:last-child {
+    padding-bottom: 12rem;
+  }
+
+  .sm\:last\:pl-48:last-child {
+    padding-left: 12rem;
+  }
+
+  .sm\:last\:pt-56:last-child {
+    padding-top: 14rem;
+  }
+
+  .sm\:last\:pr-56:last-child {
+    padding-right: 14rem;
+  }
+
+  .sm\:last\:pb-56:last-child {
+    padding-bottom: 14rem;
+  }
+
+  .sm\:last\:pl-56:last-child {
+    padding-left: 14rem;
+  }
+
+  .sm\:last\:pt-60:last-child {
+    padding-top: 15rem;
+  }
+
+  .sm\:last\:pr-60:last-child {
+    padding-right: 15rem;
+  }
+
+  .sm\:last\:pb-60:last-child {
+    padding-bottom: 15rem;
+  }
+
+  .sm\:last\:pl-60:last-child {
+    padding-left: 15rem;
+  }
+
+  .sm\:last\:pt-64:last-child {
+    padding-top: 16rem;
+  }
+
+  .sm\:last\:pr-64:last-child {
+    padding-right: 16rem;
+  }
+
+  .sm\:last\:pb-64:last-child {
+    padding-bottom: 16rem;
+  }
+
+  .sm\:last\:pl-64:last-child {
+    padding-left: 16rem;
+  }
+
+  .sm\:last\:pt-72:last-child {
+    padding-top: 18rem;
+  }
+
+  .sm\:last\:pr-72:last-child {
+    padding-right: 18rem;
+  }
+
+  .sm\:last\:pb-72:last-child {
+    padding-bottom: 18rem;
+  }
+
+  .sm\:last\:pl-72:last-child {
+    padding-left: 18rem;
+  }
+
+  .sm\:last\:pt-84:last-child {
+    padding-top: 21rem;
+  }
+
+  .sm\:last\:pr-84:last-child {
+    padding-right: 21rem;
+  }
+
+  .sm\:last\:pb-84:last-child {
+    padding-bottom: 21rem;
+  }
+
+  .sm\:last\:pl-84:last-child {
+    padding-left: 21rem;
+  }
+
+  .sm\:last\:pt-96:last-child {
+    padding-top: 24rem;
+  }
+
+  .sm\:last\:pr-96:last-child {
+    padding-right: 24rem;
+  }
+
+  .sm\:last\:pb-96:last-child {
+    padding-bottom: 24rem;
+  }
+
+  .sm\:last\:pl-96:last-child {
+    padding-left: 24rem;
+  }
+
+  .sm\:last\:pt-px:last-child {
+    padding-top: 1px;
+  }
+
+  .sm\:last\:pr-px:last-child {
+    padding-right: 1px;
+  }
+
+  .sm\:last\:pb-px:last-child {
+    padding-bottom: 1px;
+  }
+
+  .sm\:last\:pl-px:last-child {
+    padding-left: 1px;
+  }
+
   .sm\:placeholder-transparent::placeholder {
     color: transparent;
   }
@@ -25857,6 +27295,13 @@ select:-webkit-autofill:focus {
     left: 0;
   }
 
+  .sm\:inset-1 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
   .sm\:inset-auto {
     top: auto;
     right: auto;
@@ -25872,6 +27317,16 @@ select:-webkit-autofill:focus {
   .sm\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .sm\:inset-y-1 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .sm\:inset-x-1 {
+    right: 1rem;
+    left: 1rem;
   }
 
   .sm\:inset-y-auto {
@@ -25898,6 +27353,22 @@ select:-webkit-autofill:focus {
 
   .sm\:left-0 {
     left: 0;
+  }
+
+  .sm\:top-1 {
+    top: 1rem;
+  }
+
+  .sm\:right-1 {
+    right: 1rem;
+  }
+
+  .sm\:bottom-1 {
+    bottom: 1rem;
+  }
+
+  .sm\:left-1 {
+    left: 1rem;
   }
 
   .sm\:top-auto {
@@ -39769,6 +41240,696 @@ select:-webkit-autofill:focus {
     padding-left: 1px;
   }
 
+  .md\:last\:p-0:last-child {
+    padding: 0;
+  }
+
+  .md\:last\:p-1:last-child {
+    padding: 0.25rem;
+  }
+
+  .md\:last\:p-2:last-child {
+    padding: 0.5rem;
+  }
+
+  .md\:last\:p-3:last-child {
+    padding: 0.75rem;
+  }
+
+  .md\:last\:p-4:last-child {
+    padding: 1rem;
+  }
+
+  .md\:last\:p-5:last-child {
+    padding: 1.25rem;
+  }
+
+  .md\:last\:p-6:last-child {
+    padding: 1.5rem;
+  }
+
+  .md\:last\:p-8:last-child {
+    padding: 2rem;
+  }
+
+  .md\:last\:p-10:last-child {
+    padding: 2.5rem;
+  }
+
+  .md\:last\:p-12:last-child {
+    padding: 3rem;
+  }
+
+  .md\:last\:p-16:last-child {
+    padding: 4rem;
+  }
+
+  .md\:last\:p-20:last-child {
+    padding: 5rem;
+  }
+
+  .md\:last\:p-24:last-child {
+    padding: 6rem;
+  }
+
+  .md\:last\:p-32:last-child {
+    padding: 8rem;
+  }
+
+  .md\:last\:p-40:last-child {
+    padding: 10rem;
+  }
+
+  .md\:last\:p-48:last-child {
+    padding: 12rem;
+  }
+
+  .md\:last\:p-56:last-child {
+    padding: 14rem;
+  }
+
+  .md\:last\:p-60:last-child {
+    padding: 15rem;
+  }
+
+  .md\:last\:p-64:last-child {
+    padding: 16rem;
+  }
+
+  .md\:last\:p-72:last-child {
+    padding: 18rem;
+  }
+
+  .md\:last\:p-84:last-child {
+    padding: 21rem;
+  }
+
+  .md\:last\:p-96:last-child {
+    padding: 24rem;
+  }
+
+  .md\:last\:p-px:last-child {
+    padding: 1px;
+  }
+
+  .md\:last\:py-0:last-child {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .md\:last\:px-0:last-child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .md\:last\:py-1:last-child {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .md\:last\:px-1:last-child {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .md\:last\:py-2:last-child {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .md\:last\:px-2:last-child {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .md\:last\:py-3:last-child {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .md\:last\:px-3:last-child {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .md\:last\:py-4:last-child {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .md\:last\:px-4:last-child {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .md\:last\:py-5:last-child {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:last\:px-5:last-child {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:last\:py-6:last-child {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .md\:last\:px-6:last-child {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .md\:last\:py-8:last-child {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .md\:last\:px-8:last-child {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:last\:py-10:last-child {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:last\:px-10:last-child {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:last\:py-12:last-child {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .md\:last\:px-12:last-child {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .md\:last\:py-16:last-child {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .md\:last\:px-16:last-child {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md\:last\:py-20:last-child {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:last\:px-20:last-child {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:last\:py-24:last-child {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .md\:last\:px-24:last-child {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .md\:last\:py-32:last-child {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .md\:last\:px-32:last-child {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .md\:last\:py-40:last-child {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .md\:last\:px-40:last-child {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .md\:last\:py-48:last-child {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .md\:last\:px-48:last-child {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .md\:last\:py-56:last-child {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+
+  .md\:last\:px-56:last-child {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .md\:last\:py-60:last-child {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+
+  .md\:last\:px-60:last-child {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .md\:last\:py-64:last-child {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  .md\:last\:px-64:last-child {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .md\:last\:py-72:last-child {
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+  }
+
+  .md\:last\:px-72:last-child {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .md\:last\:py-84:last-child {
+    padding-top: 21rem;
+    padding-bottom: 21rem;
+  }
+
+  .md\:last\:px-84:last-child {
+    padding-left: 21rem;
+    padding-right: 21rem;
+  }
+
+  .md\:last\:py-96:last-child {
+    padding-top: 24rem;
+    padding-bottom: 24rem;
+  }
+
+  .md\:last\:px-96:last-child {
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+
+  .md\:last\:py-px:last-child {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .md\:last\:px-px:last-child {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .md\:last\:pt-0:last-child {
+    padding-top: 0;
+  }
+
+  .md\:last\:pr-0:last-child {
+    padding-right: 0;
+  }
+
+  .md\:last\:pb-0:last-child {
+    padding-bottom: 0;
+  }
+
+  .md\:last\:pl-0:last-child {
+    padding-left: 0;
+  }
+
+  .md\:last\:pt-1:last-child {
+    padding-top: 0.25rem;
+  }
+
+  .md\:last\:pr-1:last-child {
+    padding-right: 0.25rem;
+  }
+
+  .md\:last\:pb-1:last-child {
+    padding-bottom: 0.25rem;
+  }
+
+  .md\:last\:pl-1:last-child {
+    padding-left: 0.25rem;
+  }
+
+  .md\:last\:pt-2:last-child {
+    padding-top: 0.5rem;
+  }
+
+  .md\:last\:pr-2:last-child {
+    padding-right: 0.5rem;
+  }
+
+  .md\:last\:pb-2:last-child {
+    padding-bottom: 0.5rem;
+  }
+
+  .md\:last\:pl-2:last-child {
+    padding-left: 0.5rem;
+  }
+
+  .md\:last\:pt-3:last-child {
+    padding-top: 0.75rem;
+  }
+
+  .md\:last\:pr-3:last-child {
+    padding-right: 0.75rem;
+  }
+
+  .md\:last\:pb-3:last-child {
+    padding-bottom: 0.75rem;
+  }
+
+  .md\:last\:pl-3:last-child {
+    padding-left: 0.75rem;
+  }
+
+  .md\:last\:pt-4:last-child {
+    padding-top: 1rem;
+  }
+
+  .md\:last\:pr-4:last-child {
+    padding-right: 1rem;
+  }
+
+  .md\:last\:pb-4:last-child {
+    padding-bottom: 1rem;
+  }
+
+  .md\:last\:pl-4:last-child {
+    padding-left: 1rem;
+  }
+
+  .md\:last\:pt-5:last-child {
+    padding-top: 1.25rem;
+  }
+
+  .md\:last\:pr-5:last-child {
+    padding-right: 1.25rem;
+  }
+
+  .md\:last\:pb-5:last-child {
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:last\:pl-5:last-child {
+    padding-left: 1.25rem;
+  }
+
+  .md\:last\:pt-6:last-child {
+    padding-top: 1.5rem;
+  }
+
+  .md\:last\:pr-6:last-child {
+    padding-right: 1.5rem;
+  }
+
+  .md\:last\:pb-6:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  .md\:last\:pl-6:last-child {
+    padding-left: 1.5rem;
+  }
+
+  .md\:last\:pt-8:last-child {
+    padding-top: 2rem;
+  }
+
+  .md\:last\:pr-8:last-child {
+    padding-right: 2rem;
+  }
+
+  .md\:last\:pb-8:last-child {
+    padding-bottom: 2rem;
+  }
+
+  .md\:last\:pl-8:last-child {
+    padding-left: 2rem;
+  }
+
+  .md\:last\:pt-10:last-child {
+    padding-top: 2.5rem;
+  }
+
+  .md\:last\:pr-10:last-child {
+    padding-right: 2.5rem;
+  }
+
+  .md\:last\:pb-10:last-child {
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:last\:pl-10:last-child {
+    padding-left: 2.5rem;
+  }
+
+  .md\:last\:pt-12:last-child {
+    padding-top: 3rem;
+  }
+
+  .md\:last\:pr-12:last-child {
+    padding-right: 3rem;
+  }
+
+  .md\:last\:pb-12:last-child {
+    padding-bottom: 3rem;
+  }
+
+  .md\:last\:pl-12:last-child {
+    padding-left: 3rem;
+  }
+
+  .md\:last\:pt-16:last-child {
+    padding-top: 4rem;
+  }
+
+  .md\:last\:pr-16:last-child {
+    padding-right: 4rem;
+  }
+
+  .md\:last\:pb-16:last-child {
+    padding-bottom: 4rem;
+  }
+
+  .md\:last\:pl-16:last-child {
+    padding-left: 4rem;
+  }
+
+  .md\:last\:pt-20:last-child {
+    padding-top: 5rem;
+  }
+
+  .md\:last\:pr-20:last-child {
+    padding-right: 5rem;
+  }
+
+  .md\:last\:pb-20:last-child {
+    padding-bottom: 5rem;
+  }
+
+  .md\:last\:pl-20:last-child {
+    padding-left: 5rem;
+  }
+
+  .md\:last\:pt-24:last-child {
+    padding-top: 6rem;
+  }
+
+  .md\:last\:pr-24:last-child {
+    padding-right: 6rem;
+  }
+
+  .md\:last\:pb-24:last-child {
+    padding-bottom: 6rem;
+  }
+
+  .md\:last\:pl-24:last-child {
+    padding-left: 6rem;
+  }
+
+  .md\:last\:pt-32:last-child {
+    padding-top: 8rem;
+  }
+
+  .md\:last\:pr-32:last-child {
+    padding-right: 8rem;
+  }
+
+  .md\:last\:pb-32:last-child {
+    padding-bottom: 8rem;
+  }
+
+  .md\:last\:pl-32:last-child {
+    padding-left: 8rem;
+  }
+
+  .md\:last\:pt-40:last-child {
+    padding-top: 10rem;
+  }
+
+  .md\:last\:pr-40:last-child {
+    padding-right: 10rem;
+  }
+
+  .md\:last\:pb-40:last-child {
+    padding-bottom: 10rem;
+  }
+
+  .md\:last\:pl-40:last-child {
+    padding-left: 10rem;
+  }
+
+  .md\:last\:pt-48:last-child {
+    padding-top: 12rem;
+  }
+
+  .md\:last\:pr-48:last-child {
+    padding-right: 12rem;
+  }
+
+  .md\:last\:pb-48:last-child {
+    padding-bottom: 12rem;
+  }
+
+  .md\:last\:pl-48:last-child {
+    padding-left: 12rem;
+  }
+
+  .md\:last\:pt-56:last-child {
+    padding-top: 14rem;
+  }
+
+  .md\:last\:pr-56:last-child {
+    padding-right: 14rem;
+  }
+
+  .md\:last\:pb-56:last-child {
+    padding-bottom: 14rem;
+  }
+
+  .md\:last\:pl-56:last-child {
+    padding-left: 14rem;
+  }
+
+  .md\:last\:pt-60:last-child {
+    padding-top: 15rem;
+  }
+
+  .md\:last\:pr-60:last-child {
+    padding-right: 15rem;
+  }
+
+  .md\:last\:pb-60:last-child {
+    padding-bottom: 15rem;
+  }
+
+  .md\:last\:pl-60:last-child {
+    padding-left: 15rem;
+  }
+
+  .md\:last\:pt-64:last-child {
+    padding-top: 16rem;
+  }
+
+  .md\:last\:pr-64:last-child {
+    padding-right: 16rem;
+  }
+
+  .md\:last\:pb-64:last-child {
+    padding-bottom: 16rem;
+  }
+
+  .md\:last\:pl-64:last-child {
+    padding-left: 16rem;
+  }
+
+  .md\:last\:pt-72:last-child {
+    padding-top: 18rem;
+  }
+
+  .md\:last\:pr-72:last-child {
+    padding-right: 18rem;
+  }
+
+  .md\:last\:pb-72:last-child {
+    padding-bottom: 18rem;
+  }
+
+  .md\:last\:pl-72:last-child {
+    padding-left: 18rem;
+  }
+
+  .md\:last\:pt-84:last-child {
+    padding-top: 21rem;
+  }
+
+  .md\:last\:pr-84:last-child {
+    padding-right: 21rem;
+  }
+
+  .md\:last\:pb-84:last-child {
+    padding-bottom: 21rem;
+  }
+
+  .md\:last\:pl-84:last-child {
+    padding-left: 21rem;
+  }
+
+  .md\:last\:pt-96:last-child {
+    padding-top: 24rem;
+  }
+
+  .md\:last\:pr-96:last-child {
+    padding-right: 24rem;
+  }
+
+  .md\:last\:pb-96:last-child {
+    padding-bottom: 24rem;
+  }
+
+  .md\:last\:pl-96:last-child {
+    padding-left: 24rem;
+  }
+
+  .md\:last\:pt-px:last-child {
+    padding-top: 1px;
+  }
+
+  .md\:last\:pr-px:last-child {
+    padding-right: 1px;
+  }
+
+  .md\:last\:pb-px:last-child {
+    padding-bottom: 1px;
+  }
+
+  .md\:last\:pl-px:last-child {
+    padding-left: 1px;
+  }
+
   .md\:placeholder-transparent::placeholder {
     color: transparent;
   }
@@ -41072,6 +43233,13 @@ select:-webkit-autofill:focus {
     left: 0;
   }
 
+  .md\:inset-1 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
   .md\:inset-auto {
     top: auto;
     right: auto;
@@ -41087,6 +43255,16 @@ select:-webkit-autofill:focus {
   .md\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .md\:inset-y-1 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .md\:inset-x-1 {
+    right: 1rem;
+    left: 1rem;
   }
 
   .md\:inset-y-auto {
@@ -41113,6 +43291,22 @@ select:-webkit-autofill:focus {
 
   .md\:left-0 {
     left: 0;
+  }
+
+  .md\:top-1 {
+    top: 1rem;
+  }
+
+  .md\:right-1 {
+    right: 1rem;
+  }
+
+  .md\:bottom-1 {
+    bottom: 1rem;
+  }
+
+  .md\:left-1 {
+    left: 1rem;
   }
 
   .md\:top-auto {
@@ -54984,6 +57178,696 @@ select:-webkit-autofill:focus {
     padding-left: 1px;
   }
 
+  .lg\:last\:p-0:last-child {
+    padding: 0;
+  }
+
+  .lg\:last\:p-1:last-child {
+    padding: 0.25rem;
+  }
+
+  .lg\:last\:p-2:last-child {
+    padding: 0.5rem;
+  }
+
+  .lg\:last\:p-3:last-child {
+    padding: 0.75rem;
+  }
+
+  .lg\:last\:p-4:last-child {
+    padding: 1rem;
+  }
+
+  .lg\:last\:p-5:last-child {
+    padding: 1.25rem;
+  }
+
+  .lg\:last\:p-6:last-child {
+    padding: 1.5rem;
+  }
+
+  .lg\:last\:p-8:last-child {
+    padding: 2rem;
+  }
+
+  .lg\:last\:p-10:last-child {
+    padding: 2.5rem;
+  }
+
+  .lg\:last\:p-12:last-child {
+    padding: 3rem;
+  }
+
+  .lg\:last\:p-16:last-child {
+    padding: 4rem;
+  }
+
+  .lg\:last\:p-20:last-child {
+    padding: 5rem;
+  }
+
+  .lg\:last\:p-24:last-child {
+    padding: 6rem;
+  }
+
+  .lg\:last\:p-32:last-child {
+    padding: 8rem;
+  }
+
+  .lg\:last\:p-40:last-child {
+    padding: 10rem;
+  }
+
+  .lg\:last\:p-48:last-child {
+    padding: 12rem;
+  }
+
+  .lg\:last\:p-56:last-child {
+    padding: 14rem;
+  }
+
+  .lg\:last\:p-60:last-child {
+    padding: 15rem;
+  }
+
+  .lg\:last\:p-64:last-child {
+    padding: 16rem;
+  }
+
+  .lg\:last\:p-72:last-child {
+    padding: 18rem;
+  }
+
+  .lg\:last\:p-84:last-child {
+    padding: 21rem;
+  }
+
+  .lg\:last\:p-96:last-child {
+    padding: 24rem;
+  }
+
+  .lg\:last\:p-px:last-child {
+    padding: 1px;
+  }
+
+  .lg\:last\:py-0:last-child {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .lg\:last\:px-0:last-child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .lg\:last\:py-1:last-child {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .lg\:last\:px-1:last-child {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .lg\:last\:py-2:last-child {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:last\:px-2:last-child {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg\:last\:py-3:last-child {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .lg\:last\:px-3:last-child {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .lg\:last\:py-4:last-child {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .lg\:last\:px-4:last-child {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .lg\:last\:py-5:last-child {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:last\:px-5:last-child {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .lg\:last\:py-6:last-child {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .lg\:last\:px-6:last-child {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .lg\:last\:py-8:last-child {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .lg\:last\:px-8:last-child {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:last\:py-10:last-child {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:last\:px-10:last-child {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:last\:py-12:last-child {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .lg\:last\:px-12:last-child {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .lg\:last\:py-16:last-child {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .lg\:last\:px-16:last-child {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .lg\:last\:py-20:last-child {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .lg\:last\:px-20:last-child {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:last\:py-24:last-child {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .lg\:last\:px-24:last-child {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .lg\:last\:py-32:last-child {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .lg\:last\:px-32:last-child {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:last\:py-40:last-child {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .lg\:last\:px-40:last-child {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .lg\:last\:py-48:last-child {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .lg\:last\:px-48:last-child {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .lg\:last\:py-56:last-child {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+
+  .lg\:last\:px-56:last-child {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .lg\:last\:py-60:last-child {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+
+  .lg\:last\:px-60:last-child {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .lg\:last\:py-64:last-child {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  .lg\:last\:px-64:last-child {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .lg\:last\:py-72:last-child {
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+  }
+
+  .lg\:last\:px-72:last-child {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .lg\:last\:py-84:last-child {
+    padding-top: 21rem;
+    padding-bottom: 21rem;
+  }
+
+  .lg\:last\:px-84:last-child {
+    padding-left: 21rem;
+    padding-right: 21rem;
+  }
+
+  .lg\:last\:py-96:last-child {
+    padding-top: 24rem;
+    padding-bottom: 24rem;
+  }
+
+  .lg\:last\:px-96:last-child {
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+
+  .lg\:last\:py-px:last-child {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .lg\:last\:px-px:last-child {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .lg\:last\:pt-0:last-child {
+    padding-top: 0;
+  }
+
+  .lg\:last\:pr-0:last-child {
+    padding-right: 0;
+  }
+
+  .lg\:last\:pb-0:last-child {
+    padding-bottom: 0;
+  }
+
+  .lg\:last\:pl-0:last-child {
+    padding-left: 0;
+  }
+
+  .lg\:last\:pt-1:last-child {
+    padding-top: 0.25rem;
+  }
+
+  .lg\:last\:pr-1:last-child {
+    padding-right: 0.25rem;
+  }
+
+  .lg\:last\:pb-1:last-child {
+    padding-bottom: 0.25rem;
+  }
+
+  .lg\:last\:pl-1:last-child {
+    padding-left: 0.25rem;
+  }
+
+  .lg\:last\:pt-2:last-child {
+    padding-top: 0.5rem;
+  }
+
+  .lg\:last\:pr-2:last-child {
+    padding-right: 0.5rem;
+  }
+
+  .lg\:last\:pb-2:last-child {
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:last\:pl-2:last-child {
+    padding-left: 0.5rem;
+  }
+
+  .lg\:last\:pt-3:last-child {
+    padding-top: 0.75rem;
+  }
+
+  .lg\:last\:pr-3:last-child {
+    padding-right: 0.75rem;
+  }
+
+  .lg\:last\:pb-3:last-child {
+    padding-bottom: 0.75rem;
+  }
+
+  .lg\:last\:pl-3:last-child {
+    padding-left: 0.75rem;
+  }
+
+  .lg\:last\:pt-4:last-child {
+    padding-top: 1rem;
+  }
+
+  .lg\:last\:pr-4:last-child {
+    padding-right: 1rem;
+  }
+
+  .lg\:last\:pb-4:last-child {
+    padding-bottom: 1rem;
+  }
+
+  .lg\:last\:pl-4:last-child {
+    padding-left: 1rem;
+  }
+
+  .lg\:last\:pt-5:last-child {
+    padding-top: 1.25rem;
+  }
+
+  .lg\:last\:pr-5:last-child {
+    padding-right: 1.25rem;
+  }
+
+  .lg\:last\:pb-5:last-child {
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:last\:pl-5:last-child {
+    padding-left: 1.25rem;
+  }
+
+  .lg\:last\:pt-6:last-child {
+    padding-top: 1.5rem;
+  }
+
+  .lg\:last\:pr-6:last-child {
+    padding-right: 1.5rem;
+  }
+
+  .lg\:last\:pb-6:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  .lg\:last\:pl-6:last-child {
+    padding-left: 1.5rem;
+  }
+
+  .lg\:last\:pt-8:last-child {
+    padding-top: 2rem;
+  }
+
+  .lg\:last\:pr-8:last-child {
+    padding-right: 2rem;
+  }
+
+  .lg\:last\:pb-8:last-child {
+    padding-bottom: 2rem;
+  }
+
+  .lg\:last\:pl-8:last-child {
+    padding-left: 2rem;
+  }
+
+  .lg\:last\:pt-10:last-child {
+    padding-top: 2.5rem;
+  }
+
+  .lg\:last\:pr-10:last-child {
+    padding-right: 2.5rem;
+  }
+
+  .lg\:last\:pb-10:last-child {
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:last\:pl-10:last-child {
+    padding-left: 2.5rem;
+  }
+
+  .lg\:last\:pt-12:last-child {
+    padding-top: 3rem;
+  }
+
+  .lg\:last\:pr-12:last-child {
+    padding-right: 3rem;
+  }
+
+  .lg\:last\:pb-12:last-child {
+    padding-bottom: 3rem;
+  }
+
+  .lg\:last\:pl-12:last-child {
+    padding-left: 3rem;
+  }
+
+  .lg\:last\:pt-16:last-child {
+    padding-top: 4rem;
+  }
+
+  .lg\:last\:pr-16:last-child {
+    padding-right: 4rem;
+  }
+
+  .lg\:last\:pb-16:last-child {
+    padding-bottom: 4rem;
+  }
+
+  .lg\:last\:pl-16:last-child {
+    padding-left: 4rem;
+  }
+
+  .lg\:last\:pt-20:last-child {
+    padding-top: 5rem;
+  }
+
+  .lg\:last\:pr-20:last-child {
+    padding-right: 5rem;
+  }
+
+  .lg\:last\:pb-20:last-child {
+    padding-bottom: 5rem;
+  }
+
+  .lg\:last\:pl-20:last-child {
+    padding-left: 5rem;
+  }
+
+  .lg\:last\:pt-24:last-child {
+    padding-top: 6rem;
+  }
+
+  .lg\:last\:pr-24:last-child {
+    padding-right: 6rem;
+  }
+
+  .lg\:last\:pb-24:last-child {
+    padding-bottom: 6rem;
+  }
+
+  .lg\:last\:pl-24:last-child {
+    padding-left: 6rem;
+  }
+
+  .lg\:last\:pt-32:last-child {
+    padding-top: 8rem;
+  }
+
+  .lg\:last\:pr-32:last-child {
+    padding-right: 8rem;
+  }
+
+  .lg\:last\:pb-32:last-child {
+    padding-bottom: 8rem;
+  }
+
+  .lg\:last\:pl-32:last-child {
+    padding-left: 8rem;
+  }
+
+  .lg\:last\:pt-40:last-child {
+    padding-top: 10rem;
+  }
+
+  .lg\:last\:pr-40:last-child {
+    padding-right: 10rem;
+  }
+
+  .lg\:last\:pb-40:last-child {
+    padding-bottom: 10rem;
+  }
+
+  .lg\:last\:pl-40:last-child {
+    padding-left: 10rem;
+  }
+
+  .lg\:last\:pt-48:last-child {
+    padding-top: 12rem;
+  }
+
+  .lg\:last\:pr-48:last-child {
+    padding-right: 12rem;
+  }
+
+  .lg\:last\:pb-48:last-child {
+    padding-bottom: 12rem;
+  }
+
+  .lg\:last\:pl-48:last-child {
+    padding-left: 12rem;
+  }
+
+  .lg\:last\:pt-56:last-child {
+    padding-top: 14rem;
+  }
+
+  .lg\:last\:pr-56:last-child {
+    padding-right: 14rem;
+  }
+
+  .lg\:last\:pb-56:last-child {
+    padding-bottom: 14rem;
+  }
+
+  .lg\:last\:pl-56:last-child {
+    padding-left: 14rem;
+  }
+
+  .lg\:last\:pt-60:last-child {
+    padding-top: 15rem;
+  }
+
+  .lg\:last\:pr-60:last-child {
+    padding-right: 15rem;
+  }
+
+  .lg\:last\:pb-60:last-child {
+    padding-bottom: 15rem;
+  }
+
+  .lg\:last\:pl-60:last-child {
+    padding-left: 15rem;
+  }
+
+  .lg\:last\:pt-64:last-child {
+    padding-top: 16rem;
+  }
+
+  .lg\:last\:pr-64:last-child {
+    padding-right: 16rem;
+  }
+
+  .lg\:last\:pb-64:last-child {
+    padding-bottom: 16rem;
+  }
+
+  .lg\:last\:pl-64:last-child {
+    padding-left: 16rem;
+  }
+
+  .lg\:last\:pt-72:last-child {
+    padding-top: 18rem;
+  }
+
+  .lg\:last\:pr-72:last-child {
+    padding-right: 18rem;
+  }
+
+  .lg\:last\:pb-72:last-child {
+    padding-bottom: 18rem;
+  }
+
+  .lg\:last\:pl-72:last-child {
+    padding-left: 18rem;
+  }
+
+  .lg\:last\:pt-84:last-child {
+    padding-top: 21rem;
+  }
+
+  .lg\:last\:pr-84:last-child {
+    padding-right: 21rem;
+  }
+
+  .lg\:last\:pb-84:last-child {
+    padding-bottom: 21rem;
+  }
+
+  .lg\:last\:pl-84:last-child {
+    padding-left: 21rem;
+  }
+
+  .lg\:last\:pt-96:last-child {
+    padding-top: 24rem;
+  }
+
+  .lg\:last\:pr-96:last-child {
+    padding-right: 24rem;
+  }
+
+  .lg\:last\:pb-96:last-child {
+    padding-bottom: 24rem;
+  }
+
+  .lg\:last\:pl-96:last-child {
+    padding-left: 24rem;
+  }
+
+  .lg\:last\:pt-px:last-child {
+    padding-top: 1px;
+  }
+
+  .lg\:last\:pr-px:last-child {
+    padding-right: 1px;
+  }
+
+  .lg\:last\:pb-px:last-child {
+    padding-bottom: 1px;
+  }
+
+  .lg\:last\:pl-px:last-child {
+    padding-left: 1px;
+  }
+
   .lg\:placeholder-transparent::placeholder {
     color: transparent;
   }
@@ -56287,6 +59171,13 @@ select:-webkit-autofill:focus {
     left: 0;
   }
 
+  .lg\:inset-1 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
   .lg\:inset-auto {
     top: auto;
     right: auto;
@@ -56302,6 +59193,16 @@ select:-webkit-autofill:focus {
   .lg\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .lg\:inset-y-1 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .lg\:inset-x-1 {
+    right: 1rem;
+    left: 1rem;
   }
 
   .lg\:inset-y-auto {
@@ -56328,6 +59229,22 @@ select:-webkit-autofill:focus {
 
   .lg\:left-0 {
     left: 0;
+  }
+
+  .lg\:top-1 {
+    top: 1rem;
+  }
+
+  .lg\:right-1 {
+    right: 1rem;
+  }
+
+  .lg\:bottom-1 {
+    bottom: 1rem;
+  }
+
+  .lg\:left-1 {
+    left: 1rem;
   }
 
   .lg\:top-auto {
@@ -70199,6 +73116,696 @@ select:-webkit-autofill:focus {
     padding-left: 1px;
   }
 
+  .xl\:last\:p-0:last-child {
+    padding: 0;
+  }
+
+  .xl\:last\:p-1:last-child {
+    padding: 0.25rem;
+  }
+
+  .xl\:last\:p-2:last-child {
+    padding: 0.5rem;
+  }
+
+  .xl\:last\:p-3:last-child {
+    padding: 0.75rem;
+  }
+
+  .xl\:last\:p-4:last-child {
+    padding: 1rem;
+  }
+
+  .xl\:last\:p-5:last-child {
+    padding: 1.25rem;
+  }
+
+  .xl\:last\:p-6:last-child {
+    padding: 1.5rem;
+  }
+
+  .xl\:last\:p-8:last-child {
+    padding: 2rem;
+  }
+
+  .xl\:last\:p-10:last-child {
+    padding: 2.5rem;
+  }
+
+  .xl\:last\:p-12:last-child {
+    padding: 3rem;
+  }
+
+  .xl\:last\:p-16:last-child {
+    padding: 4rem;
+  }
+
+  .xl\:last\:p-20:last-child {
+    padding: 5rem;
+  }
+
+  .xl\:last\:p-24:last-child {
+    padding: 6rem;
+  }
+
+  .xl\:last\:p-32:last-child {
+    padding: 8rem;
+  }
+
+  .xl\:last\:p-40:last-child {
+    padding: 10rem;
+  }
+
+  .xl\:last\:p-48:last-child {
+    padding: 12rem;
+  }
+
+  .xl\:last\:p-56:last-child {
+    padding: 14rem;
+  }
+
+  .xl\:last\:p-60:last-child {
+    padding: 15rem;
+  }
+
+  .xl\:last\:p-64:last-child {
+    padding: 16rem;
+  }
+
+  .xl\:last\:p-72:last-child {
+    padding: 18rem;
+  }
+
+  .xl\:last\:p-84:last-child {
+    padding: 21rem;
+  }
+
+  .xl\:last\:p-96:last-child {
+    padding: 24rem;
+  }
+
+  .xl\:last\:p-px:last-child {
+    padding: 1px;
+  }
+
+  .xl\:last\:py-0:last-child {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .xl\:last\:px-0:last-child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .xl\:last\:py-1:last-child {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .xl\:last\:px-1:last-child {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .xl\:last\:py-2:last-child {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .xl\:last\:px-2:last-child {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .xl\:last\:py-3:last-child {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .xl\:last\:px-3:last-child {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .xl\:last\:py-4:last-child {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .xl\:last\:px-4:last-child {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .xl\:last\:py-5:last-child {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .xl\:last\:px-5:last-child {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .xl\:last\:py-6:last-child {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .xl\:last\:px-6:last-child {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .xl\:last\:py-8:last-child {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .xl\:last\:px-8:last-child {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .xl\:last\:py-10:last-child {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .xl\:last\:px-10:last-child {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .xl\:last\:py-12:last-child {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .xl\:last\:px-12:last-child {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .xl\:last\:py-16:last-child {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:last\:px-16:last-child {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xl\:last\:py-20:last-child {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .xl\:last\:px-20:last-child {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xl\:last\:py-24:last-child {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .xl\:last\:px-24:last-child {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .xl\:last\:py-32:last-child {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .xl\:last\:px-32:last-child {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .xl\:last\:py-40:last-child {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .xl\:last\:px-40:last-child {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .xl\:last\:py-48:last-child {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .xl\:last\:px-48:last-child {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .xl\:last\:py-56:last-child {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+
+  .xl\:last\:px-56:last-child {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .xl\:last\:py-60:last-child {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+
+  .xl\:last\:px-60:last-child {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .xl\:last\:py-64:last-child {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  .xl\:last\:px-64:last-child {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .xl\:last\:py-72:last-child {
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+  }
+
+  .xl\:last\:px-72:last-child {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .xl\:last\:py-84:last-child {
+    padding-top: 21rem;
+    padding-bottom: 21rem;
+  }
+
+  .xl\:last\:px-84:last-child {
+    padding-left: 21rem;
+    padding-right: 21rem;
+  }
+
+  .xl\:last\:py-96:last-child {
+    padding-top: 24rem;
+    padding-bottom: 24rem;
+  }
+
+  .xl\:last\:px-96:last-child {
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+
+  .xl\:last\:py-px:last-child {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .xl\:last\:px-px:last-child {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .xl\:last\:pt-0:last-child {
+    padding-top: 0;
+  }
+
+  .xl\:last\:pr-0:last-child {
+    padding-right: 0;
+  }
+
+  .xl\:last\:pb-0:last-child {
+    padding-bottom: 0;
+  }
+
+  .xl\:last\:pl-0:last-child {
+    padding-left: 0;
+  }
+
+  .xl\:last\:pt-1:last-child {
+    padding-top: 0.25rem;
+  }
+
+  .xl\:last\:pr-1:last-child {
+    padding-right: 0.25rem;
+  }
+
+  .xl\:last\:pb-1:last-child {
+    padding-bottom: 0.25rem;
+  }
+
+  .xl\:last\:pl-1:last-child {
+    padding-left: 0.25rem;
+  }
+
+  .xl\:last\:pt-2:last-child {
+    padding-top: 0.5rem;
+  }
+
+  .xl\:last\:pr-2:last-child {
+    padding-right: 0.5rem;
+  }
+
+  .xl\:last\:pb-2:last-child {
+    padding-bottom: 0.5rem;
+  }
+
+  .xl\:last\:pl-2:last-child {
+    padding-left: 0.5rem;
+  }
+
+  .xl\:last\:pt-3:last-child {
+    padding-top: 0.75rem;
+  }
+
+  .xl\:last\:pr-3:last-child {
+    padding-right: 0.75rem;
+  }
+
+  .xl\:last\:pb-3:last-child {
+    padding-bottom: 0.75rem;
+  }
+
+  .xl\:last\:pl-3:last-child {
+    padding-left: 0.75rem;
+  }
+
+  .xl\:last\:pt-4:last-child {
+    padding-top: 1rem;
+  }
+
+  .xl\:last\:pr-4:last-child {
+    padding-right: 1rem;
+  }
+
+  .xl\:last\:pb-4:last-child {
+    padding-bottom: 1rem;
+  }
+
+  .xl\:last\:pl-4:last-child {
+    padding-left: 1rem;
+  }
+
+  .xl\:last\:pt-5:last-child {
+    padding-top: 1.25rem;
+  }
+
+  .xl\:last\:pr-5:last-child {
+    padding-right: 1.25rem;
+  }
+
+  .xl\:last\:pb-5:last-child {
+    padding-bottom: 1.25rem;
+  }
+
+  .xl\:last\:pl-5:last-child {
+    padding-left: 1.25rem;
+  }
+
+  .xl\:last\:pt-6:last-child {
+    padding-top: 1.5rem;
+  }
+
+  .xl\:last\:pr-6:last-child {
+    padding-right: 1.5rem;
+  }
+
+  .xl\:last\:pb-6:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  .xl\:last\:pl-6:last-child {
+    padding-left: 1.5rem;
+  }
+
+  .xl\:last\:pt-8:last-child {
+    padding-top: 2rem;
+  }
+
+  .xl\:last\:pr-8:last-child {
+    padding-right: 2rem;
+  }
+
+  .xl\:last\:pb-8:last-child {
+    padding-bottom: 2rem;
+  }
+
+  .xl\:last\:pl-8:last-child {
+    padding-left: 2rem;
+  }
+
+  .xl\:last\:pt-10:last-child {
+    padding-top: 2.5rem;
+  }
+
+  .xl\:last\:pr-10:last-child {
+    padding-right: 2.5rem;
+  }
+
+  .xl\:last\:pb-10:last-child {
+    padding-bottom: 2.5rem;
+  }
+
+  .xl\:last\:pl-10:last-child {
+    padding-left: 2.5rem;
+  }
+
+  .xl\:last\:pt-12:last-child {
+    padding-top: 3rem;
+  }
+
+  .xl\:last\:pr-12:last-child {
+    padding-right: 3rem;
+  }
+
+  .xl\:last\:pb-12:last-child {
+    padding-bottom: 3rem;
+  }
+
+  .xl\:last\:pl-12:last-child {
+    padding-left: 3rem;
+  }
+
+  .xl\:last\:pt-16:last-child {
+    padding-top: 4rem;
+  }
+
+  .xl\:last\:pr-16:last-child {
+    padding-right: 4rem;
+  }
+
+  .xl\:last\:pb-16:last-child {
+    padding-bottom: 4rem;
+  }
+
+  .xl\:last\:pl-16:last-child {
+    padding-left: 4rem;
+  }
+
+  .xl\:last\:pt-20:last-child {
+    padding-top: 5rem;
+  }
+
+  .xl\:last\:pr-20:last-child {
+    padding-right: 5rem;
+  }
+
+  .xl\:last\:pb-20:last-child {
+    padding-bottom: 5rem;
+  }
+
+  .xl\:last\:pl-20:last-child {
+    padding-left: 5rem;
+  }
+
+  .xl\:last\:pt-24:last-child {
+    padding-top: 6rem;
+  }
+
+  .xl\:last\:pr-24:last-child {
+    padding-right: 6rem;
+  }
+
+  .xl\:last\:pb-24:last-child {
+    padding-bottom: 6rem;
+  }
+
+  .xl\:last\:pl-24:last-child {
+    padding-left: 6rem;
+  }
+
+  .xl\:last\:pt-32:last-child {
+    padding-top: 8rem;
+  }
+
+  .xl\:last\:pr-32:last-child {
+    padding-right: 8rem;
+  }
+
+  .xl\:last\:pb-32:last-child {
+    padding-bottom: 8rem;
+  }
+
+  .xl\:last\:pl-32:last-child {
+    padding-left: 8rem;
+  }
+
+  .xl\:last\:pt-40:last-child {
+    padding-top: 10rem;
+  }
+
+  .xl\:last\:pr-40:last-child {
+    padding-right: 10rem;
+  }
+
+  .xl\:last\:pb-40:last-child {
+    padding-bottom: 10rem;
+  }
+
+  .xl\:last\:pl-40:last-child {
+    padding-left: 10rem;
+  }
+
+  .xl\:last\:pt-48:last-child {
+    padding-top: 12rem;
+  }
+
+  .xl\:last\:pr-48:last-child {
+    padding-right: 12rem;
+  }
+
+  .xl\:last\:pb-48:last-child {
+    padding-bottom: 12rem;
+  }
+
+  .xl\:last\:pl-48:last-child {
+    padding-left: 12rem;
+  }
+
+  .xl\:last\:pt-56:last-child {
+    padding-top: 14rem;
+  }
+
+  .xl\:last\:pr-56:last-child {
+    padding-right: 14rem;
+  }
+
+  .xl\:last\:pb-56:last-child {
+    padding-bottom: 14rem;
+  }
+
+  .xl\:last\:pl-56:last-child {
+    padding-left: 14rem;
+  }
+
+  .xl\:last\:pt-60:last-child {
+    padding-top: 15rem;
+  }
+
+  .xl\:last\:pr-60:last-child {
+    padding-right: 15rem;
+  }
+
+  .xl\:last\:pb-60:last-child {
+    padding-bottom: 15rem;
+  }
+
+  .xl\:last\:pl-60:last-child {
+    padding-left: 15rem;
+  }
+
+  .xl\:last\:pt-64:last-child {
+    padding-top: 16rem;
+  }
+
+  .xl\:last\:pr-64:last-child {
+    padding-right: 16rem;
+  }
+
+  .xl\:last\:pb-64:last-child {
+    padding-bottom: 16rem;
+  }
+
+  .xl\:last\:pl-64:last-child {
+    padding-left: 16rem;
+  }
+
+  .xl\:last\:pt-72:last-child {
+    padding-top: 18rem;
+  }
+
+  .xl\:last\:pr-72:last-child {
+    padding-right: 18rem;
+  }
+
+  .xl\:last\:pb-72:last-child {
+    padding-bottom: 18rem;
+  }
+
+  .xl\:last\:pl-72:last-child {
+    padding-left: 18rem;
+  }
+
+  .xl\:last\:pt-84:last-child {
+    padding-top: 21rem;
+  }
+
+  .xl\:last\:pr-84:last-child {
+    padding-right: 21rem;
+  }
+
+  .xl\:last\:pb-84:last-child {
+    padding-bottom: 21rem;
+  }
+
+  .xl\:last\:pl-84:last-child {
+    padding-left: 21rem;
+  }
+
+  .xl\:last\:pt-96:last-child {
+    padding-top: 24rem;
+  }
+
+  .xl\:last\:pr-96:last-child {
+    padding-right: 24rem;
+  }
+
+  .xl\:last\:pb-96:last-child {
+    padding-bottom: 24rem;
+  }
+
+  .xl\:last\:pl-96:last-child {
+    padding-left: 24rem;
+  }
+
+  .xl\:last\:pt-px:last-child {
+    padding-top: 1px;
+  }
+
+  .xl\:last\:pr-px:last-child {
+    padding-right: 1px;
+  }
+
+  .xl\:last\:pb-px:last-child {
+    padding-bottom: 1px;
+  }
+
+  .xl\:last\:pl-px:last-child {
+    padding-left: 1px;
+  }
+
   .xl\:placeholder-transparent::placeholder {
     color: transparent;
   }
@@ -71502,6 +75109,13 @@ select:-webkit-autofill:focus {
     left: 0;
   }
 
+  .xl\:inset-1 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
   .xl\:inset-auto {
     top: auto;
     right: auto;
@@ -71517,6 +75131,16 @@ select:-webkit-autofill:focus {
   .xl\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .xl\:inset-y-1 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .xl\:inset-x-1 {
+    right: 1rem;
+    left: 1rem;
   }
 
   .xl\:inset-y-auto {
@@ -71543,6 +75167,22 @@ select:-webkit-autofill:focus {
 
   .xl\:left-0 {
     left: 0;
+  }
+
+  .xl\:top-1 {
+    top: 1rem;
+  }
+
+  .xl\:right-1 {
+    right: 1rem;
+  }
+
+  .xl\:bottom-1 {
+    bottom: 1rem;
+  }
+
+  .xl\:left-1 {
+    left: 1rem;
   }
 
   .xl\:top-auto {

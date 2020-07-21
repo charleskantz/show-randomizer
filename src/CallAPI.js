@@ -1,9 +1,11 @@
 import axios from 'axios';
 
+const BASE_URL = 'https://api.tvmaze.com/'
+
 class CallAPI {
   static async searchShows(query) {
     try {
-      let res = await axios.get(`https://api.tvmaze.com/search/shows?q=${query}`);
+      let res = await axios.get(`${BASE_URL}search/shows?q=${query}`);
       return res.data;
     } catch(err) {
       return new Error(err);
@@ -12,7 +14,8 @@ class CallAPI {
 
   static async getShowDetails(id) {
     try {
-      let res = await axios.get(`https://api.tvmaze.com/shows/${id}?embed=episodes`);
+      // get all the episode details now for quicker random selection
+      let res = await axios.get(`${BASE_URL}shows/${id}?embed=episodes`);
       return res.data;
     } catch(err) {
       return new Error(err);

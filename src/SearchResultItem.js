@@ -7,7 +7,7 @@ function SearchResultItem({ show, handleSelection, getRandomEpisode, selected })
 
   return (
     <div
-      className="w-10/12 mx-auto my-6 md:flex max-w-screen-lg"
+      className="w-10/12 mx-auto my-6 md:flex max-w-screen-lg last:pb-40"
     >
       <CardImage image={show.image?.medium} />
       <div className="w-full rounded-b-big md:rounded-b-none md:rounded-r-big p-6 flex flex-col justify-between flex-wrap leading-normal card-bg">
@@ -19,7 +19,10 @@ function SearchResultItem({ show, handleSelection, getRandomEpisode, selected })
             {show.name}
           </div>
           <p className="text-show-300 text-base">
-          {show?.summary?.replace(regExNoTags, '')}
+          {
+            show?.summary?.replace(regExNoTags, '')
+              || 'No description.'
+          }
           </p>
         </div>
         <div className="flex items-center">
@@ -28,17 +31,17 @@ function SearchResultItem({ show, handleSelection, getRandomEpisode, selected })
               disabled={selected}
               id={show.id}
               onClick={handleSelection}
-              className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full disabled:opacity-50 disabled:cursor-default"
+              className="add-button bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full disabled:opacity-50 disabled:cursor-default focus:outline-none focus:shadow-outline"
             >
-              <strong>+</strong> Add
+              <span className="anim-spin font-bold mr-1"></span> Add
             </button>
-            <span
+            <button
               id={show.id}
               onClick={getRandomEpisode}
-              className="text-blue-700 font-semibold hover:text-white cursor-pointer mt-4 block md:inline md:ml-6 "
+              className="text-blue-700 font-bold hover:text-white cursor-pointer mt-4 block md:inline md:ml-6 border-none bg-transparent focus:outline-none focus:shadow-outline"
             >
-              Get Random Episode Now
-            </span>
+              <span className="anim-spin font-bold mr-1"></span> Get Random Episode Now
+            </button>
           </div>
         </div>
       </div>

@@ -24,17 +24,7 @@ html {
   background-image: url('https://static.tvmaze.com/images/no-img/no-img-portrait-text.png');
 }
 
-.closeBtn {
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  border: none;
-  background: none;
-}
-
-
-
-/* Change Autocomplete styles in Chrome*/
+/* Change Autocomplete styles in Chrome */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -49,6 +39,7 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
+/* cover screen for modal */
 .modalBG {
   position: fixed;
   width: 100vw;
@@ -57,4 +48,51 @@ select:-webkit-autofill:focus {
   display: flex;
   justify-content: center;
   z-index: 10;
+}
+
+.selected-show-img:hover:after{
+  content:'x';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-show-img:hover img {
+  opacity: .5;
+}
+
+.anim-spin {
+  display: inline-block;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  -moz-transition: -moz-transform .3s ease-in-out;
+  -o-transition: -o-transform .3s ease-in-out;
+  -ms-transition: -ms-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+}
+
+.redo-button:hover > .anim-spin {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  text-rendering: geometricPrecision;
+}
+
+.add-button:hover > .anim-spin {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }

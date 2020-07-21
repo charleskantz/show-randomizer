@@ -137,16 +137,19 @@ function Container() {
         handleSubmit={handleSubmit}
       />
 
-    {searchResults.length > 0 ? renderResults() : null}
+      {searchResults.length > 0
+        ? <div>{renderResults()}</div>
+        : null
+      }
 
-    {selections.length > 0
-      ? <SelectedShowFooter
-          selections={selections}
-          randomize={handleRandomize}
-          handleClear={setSelections}
-        />
-      : null
-    }
+      {selections.length > 0
+        ? <SelectedShowFooter
+            selections={selections}
+            randomize={handleRandomize}
+            handleClear={setSelections}
+          />
+        : null
+      }
     </div>
   )
 }

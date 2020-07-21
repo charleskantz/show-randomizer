@@ -24,6 +24,8 @@ function RandomEpisode({ episode, setRandomEpisode, setIsLoading }) {
     } else if (episode.method === 'multi') {
       setIsLoading('multi')
     }
+    // button animation
+
   }
 
   // make sure we're actually clicking the close btn or modal area
@@ -37,7 +39,7 @@ function RandomEpisode({ episode, setRandomEpisode, setIsLoading }) {
   return (
     <div className="modalBG bg-overlay-900" onClick={handleClose} id="modalBG">
       <div className="z-20 fixed p-6 rounded-big w-3/4 mx-auto my-6 max-w-screen-sm card-bg md:w-1/2 text-center">
-        <button className="closeBtn" onClick={handleClose} id="closeBtn">X</button>
+        <button className="absolute top-1 right-1 border-none font-bold text-show-900 text-lg mr-1" onClick={handleClose} id="closeBtn">x</button>
         <p className="text-sm italic text-show-400">
           Your Random Episode
         </p>
@@ -53,12 +55,12 @@ function RandomEpisode({ episode, setRandomEpisode, setIsLoading }) {
         </p>
         <button
           onClick={handleRedo}
-          className="bg-blue-500 mt-4 hover:bg-blue-700 text-white py-2 px-4 rounded-full"
+          className="redo-button bg-blue-500 mt-4 hover:bg-blue-700 text-white py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"
         >
-          Naw, try another
+          <span className="font-bold anim-spin">↻</span> Nope, try another
         </button>
-        <p className="text-left text-gray-300 mt-6">
-          {episode.random?.summary?.replace(regExNoTags, '')}
+        <p className="text-left text-show-300 text-sm mt-6 mx-auto mb-2 px-4">
+          {episode.random?.summary?.replace(regExNoTags, '') || 'No description.'}
         </p>
       </div>
     </div>
