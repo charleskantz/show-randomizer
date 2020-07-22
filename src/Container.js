@@ -6,15 +6,17 @@ import SelectedShowFooter from './SelectedShowFooter';
 import Header from './Header';
 import RandomEpisode from './RandomEpisode';
 import Spinner from './Spinner';
+import HowItWorks from './HowItWorks';
 
 function Container() {
-  const [ query, setQuery ] = useState("");
-  const [ isLoading, setIsLoading ] = useState('');
-  const [ searchResults, setSearchResults ] = useState([])
-  const [ selections, setSelections ] = useState([]);
-  const [ randomShowId, setRandomShowId ] = useState('');
-  const [ randomEpisode, setRandomEpisode ] = useState({});
-  const [ randomShowList, setRandomShowList ] = useState([])
+  const [ query, setQuery ] = useState(""); // search query
+  const [ isLoading, setIsLoading ] = useState(''); // shows loading spinner
+  const [ searchResults, setSearchResults ] = useState([]) // API search results
+  const [ selections, setSelections ] = useState([]); // shows selected by user
+  const [ randomShowId, setRandomShowId ] = useState(''); // show ID for single show
+  const [ randomShowList, setRandomShowList ] = useState([]) // list of show(s) with episodes, for random picking
+  const [ randomEpisode, setRandomEpisode ] = useState({}); // randomly selected show
+  const [ instructions, setInstructions ] = useState(false); // how-to-use toggle
 
   // search for a list of shows
   useEffect(() => {
@@ -120,35 +122,45 @@ function Container() {
   return (
     <div className="relative">
 
-      {isLoading ? <Spinner /> : null}
+      { // display loading modal if we're calling the API
+        isLoading && <Spinner />
+      }
 
-      {Object.keys(randomEpisode).length > 0
-        ? <RandomEpisode
-            episode={randomEpisode}
-            setRandomEpisode={setRandomEpisode}
-            setIsLoading={setIsLoading}
-          />
-        : null
+      { // display random ep modal if a random episode is selected
+        Object.keys(randomEpisode).length > 0
+          ? <RandomEpisode
+              episode={randomEpisode}
+              setRandomEpisode={setRandomEpisode}
+              setIsLoading={setIsLoading}
+            />
+          : null
+      }
+
+      { // display instruction modal if link is clicked
+        instructions && <HowItWorks setInstructions={setInstructions}/>
       }
 
       <Header
         query={query}
         handleChange={handleChange}
         handleSubmit={handleSubmit}
+        setInstructions={setInstructions}
       />
 
-      {searchResults.length > 0
-        ? <div>{renderResults()}</div>
-        : null
+      { // if there are search results, render list of results
+        searchResults.length > 0
+          ? <div>{renderResults()}</div>
+          : null
       }
 
-      {selections.length > 0
-        ? <SelectedShowFooter
-            selections={selections}
-            randomize={handleRandomize}
-            handleClear={setSelections}
-          />
-        : null
+      { // if a show is selected for multi-show randomization, show list of selected shows
+        selections.length > 0
+          ? <SelectedShowFooter
+              selections={selections}
+              randomize={handleRandomize}
+              handleClear={setSelections}
+            />
+          : null
       }
     </div>
   )
