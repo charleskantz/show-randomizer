@@ -1,9 +1,14 @@
 import React from 'react';
 import CardImage from './CardImage';
 
-function SearchResultItem({ show, handleSelection, getRandomEpisode, selected }) {
+function SearchResultItem({ show, handleSelection, getRandomEpisode, isDisabled }) {
 
   const regExNoTags = /<[^>]*>/g;
+
+  const setSelection = () => {
+    handleSelection(show.id);
+  }
+
 
   return (
     <div
@@ -28,9 +33,9 @@ function SearchResultItem({ show, handleSelection, getRandomEpisode, selected })
         <div className="flex items-center">
           <div>
             <button
-              disabled={selected}
+              disabled={isDisabled}
               id={show.id}
-              onClick={handleSelection}
+              onClick={setSelection}
               className="add-button bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full disabled:opacity-50 disabled:cursor-default focus:outline-none focus:shadow-outline"
             >
               <span className="anim-spin font-bold mr-1"></span> Add
@@ -50,28 +55,3 @@ function SearchResultItem({ show, handleSelection, getRandomEpisode, selected })
 }
 
 export default SearchResultItem;
-
-/*
-  return (
-    <div
-      className="container shadow-md m-6 mx-auto p-6 bg-white rounded"
-      key={show.id}
-    >
-      <div
-        className="inset-y-0 left-0 w-48 bg-cover bg-center"
-        style={{
-          backgroundImage: `url('${show.image?.medium}')`
-            || "url('https://static.tvmaze.com/images/no-img/no-img-portrait-text.png')"
-        }}
-        ></div>
-      <div className="searchResultDetails">
-        <h3>{show.name}</h3>
-        <div className="searchResultDesc">
-          {show.summary?.slice(3, -4)}
-          <button id={show.id} onClick={handleSelection}>Add to Randomizer</button>
-          <button id={show.id} onClick={getRandomEpisode}>Get Random Episode Now</button>
-        </div>
-      </div>
-    </div>
-  )
-*/

@@ -5,7 +5,7 @@ function SelectedShowItem({ id, showImg, handleRemove }) {
     <div
       id={id}
       className="selected-show-img relative inline-block text-show-300 cursor-pointer text-lg font-bold"
-      onClick={evt => handleRemove(evt)}
+      onClick={() => handleRemove(id)}
     >
       <img
         src={showImg}

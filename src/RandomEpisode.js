@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 /*
-  Popup that shows a randomly selected episdode
+  Popup that shows a randomly selected episode
 
 */
 
@@ -30,7 +30,6 @@ function RandomEpisode({ episode, setRandomEpisode, setIsLoading }) {
 
   // make sure we're actually clicking the close btn or modal area
   const handleClose = evt => {
-    console.log("target", evt.target.id);
     if (evt.target.id === 'modalBG' || evt.target.id === 'closeBtn') {
       setRandomEpisode({});
     }
@@ -59,6 +58,12 @@ function RandomEpisode({ episode, setRandomEpisode, setIsLoading }) {
         >
           <span className="font-bold anim-spin">↻</span> Nope, try another
         </button>
+        <p className="text-sm mt-5 text-show-400">
+          { // if the show is available to stream online, show the source
+            episode.webChannel?.name &&
+              `Available to stream on ${episode.webChannel.name}`
+          }
+        </p>
         <p className="text-left text-show-300 text-sm mt-6 mx-auto mb-2 px-4">
           {episode.random?.summary?.replace(regExNoTags, '') || 'No description.'}
         </p>

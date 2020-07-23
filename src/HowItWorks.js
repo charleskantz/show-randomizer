@@ -4,7 +4,6 @@ function HowItWorks({ setInstructions }) {
 
   // make sure we're actually clicking the close btn or modal area
   const handleClose = evt => {
-    console.log("target", evt.target.id);
     if (evt.target.id === 'modalBG' || evt.target.id === 'closeBtn') {
       setInstructions(false);
     }

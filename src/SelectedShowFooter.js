@@ -3,10 +3,8 @@ import SelectedShowItem from './SelectedShowItem';
 
 function SelectedShowFooter({ selections, randomize, handleClear }) {
 
-  console.log(selections);
-  const handleRemove = evt => {
-    const rmv = evt.target.id;
-    handleClear(show => show.filter(show => show.id !== parseInt(rmv)));
+  const handleRemove = id => {
+    handleClear(show => show.filter(show => show.id !== parseInt(id)));
   }
 
   return (

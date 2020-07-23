@@ -24,11 +24,7 @@ class CallAPI {
 
   static async getSelectedShows(shows) {
     try {
-      let res = await shows.map(async show => {
-        let response = await this.getShowDetails(show.id);
-        return response;
-      });
-
+      let res = shows.map( show => this.getShowDetails(show.id) );
       let allResults = await Promise.all(res);
       return allResults;
     } catch(err) {

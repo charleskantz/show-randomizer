@@ -57,6 +57,7 @@ function Container() {
   useEffect(() => {
     async function pickRandomFromShows() {
       try {
+        // ensures we don't call API unless it's a new set of shows
         if (randomShowList.length === 0) {
           let res = await CallAPI.getSelectedShows(selections);
           setRandomShowList(res);
@@ -91,8 +92,8 @@ function Container() {
   }
 
   // selecting a show
-  const handleSelection = evt => {
-    let show = searchResults.find(show => show.id === parseInt(evt.target.id));
+  const handleSelection = showID => {
+    let show = searchResults.find(show => show.id === parseInt(showID));
     setSelections(selections => [...selections, show]);
   }
 
@@ -100,13 +101,14 @@ function Container() {
   const renderResults = () => {
     if (Array.isArray(searchResults)) {
       return searchResults.map(show => {
-        const selected = selections.includes(show);
+        // show can only be added once, and set limit of shows to 5
+        const isDisabled = selections.includes(show) || selections.length === 5;
         return <SearchResultItem
           key={show.id}
           show={show}
           getRandomEpisode={getRandomEpisode}
           handleSelection={handleSelection}
-          selected={selected}
+          isDisabled={isDisabled}
         />
       })
     } else {
@@ -127,13 +129,12 @@ function Container() {
       }
 
       { // display random ep modal if a random episode is selected
-        Object.keys(randomEpisode).length > 0
-          ? <RandomEpisode
-              episode={randomEpisode}
-              setRandomEpisode={setRandomEpisode}
-              setIsLoading={setIsLoading}
-            />
-          : null
+        Object.keys(randomEpisode).length > 0 &&
+          <RandomEpisode
+            episode={randomEpisode}
+            setRandomEpisode={setRandomEpisode}
+            setIsLoading={setIsLoading}
+          />
       }
 
       { // display instruction modal if link is clicked
@@ -154,13 +155,12 @@ function Container() {
       }
 
       { // if a show is selected for multi-show randomization, show list of selected shows
-        selections.length > 0
-          ? <SelectedShowFooter
-              selections={selections}
-              randomize={handleRandomize}
-              handleClear={setSelections}
-            />
-          : null
+        selections.length > 0 &&
+          <SelectedShowFooter
+            selections={selections}
+            randomize={handleRandomize}
+            handleClear={setSelections}
+          />
       }
     </div>
   )
