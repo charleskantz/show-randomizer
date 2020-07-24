@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import CloseButton from './CloseButton';
 
 /*
   Popup that shows a randomly selected episode
@@ -38,7 +39,7 @@ function RandomEpisode({ episode, setRandomEpisode, setIsLoading }) {
   return (
     <div className="modalBG bg-overlay-900" onClick={handleClose} id="modalBG">
       <div className="z-20 fixed p-6 rounded-big w-3/4 mx-auto my-6 max-w-screen-sm card-bg md:w-1/2 text-center">
-        <button className="absolute top-1 right-1 border-none font-bold text-show-900 text-lg mr-1" onClick={handleClose} id="closeBtn">x</button>
+        <CloseButton handleClose={handleClose} />
         <p className="text-sm italic text-show-400">
           Your Random Episode
         </p>

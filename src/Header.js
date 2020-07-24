@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function Header({ query, handleChange, handleSubmit, setInstructions }) {
+function Header({ handleSubmit, setInstructions }) {
+
+  const [ query, setQuery ] = useState('');
+
+    // search form handling
+  const handleChange = evt => {
+    setQuery(evt.target.value);
+  }
+
+  const submitForm = evt => {
+    evt.preventDefault();
+    handleSubmit(query);
+  }
+
   return (
     <div className="container mx-auto">
       <h1 className="font-test font-bold text-gray-100 text-center antialiased text-4xl">
         Enter Show Name
       </h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={submitForm}>
         <div className="text-center">
           <label htmlFor="query">
             <input
@@ -21,9 +34,9 @@ function Header({ query, handleChange, handleSubmit, setInstructions }) {
           <button className="text-gray-100 hover:text-white hover:bg-show-600 text-md font-semibold rounded-r-lg px-6 py-2 card-bg border border-show-900 -m-px leading-normal focus:outline-none focus:shadow-outline">
             Search
           </button>
-          <div onClick={() => setInstructions(true)} className="font-bold text-sm text-show-400 cursor-pointer">
+          <p onClick={() => setInstructions(true)} className="font-bold text-sm text-show-400 cursor-pointer hover:text-show-300">
             How it Works
-          </div>
+          </p>
         </div>
       </form>
     </div>

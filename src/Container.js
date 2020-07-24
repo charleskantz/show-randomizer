@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import CallAPI from './CallAPI';
 import _ from 'lodash';
-import SearchResultItem from './SearchResultItem';
 import SelectedShowFooter from './SelectedShowFooter';
 import Header from './Header';
 import RandomEpisode from './RandomEpisode';
 import Spinner from './Spinner';
 import HowItWorks from './HowItWorks';
+import Footer from './Footer';
+import SearchResultList from './SearchResultList';
 
 function Container() {
-  const [ query, setQuery ] = useState(""); // search query
+  const [ searchQuery, setSearchQuery ] = useState(""); // search query
   const [ isLoading, setIsLoading ] = useState(''); // shows loading spinner
   const [ searchResults, setSearchResults ] = useState([]) // API search results
   const [ selections, setSelections ] = useState([]); // shows selected by user
@@ -22,7 +23,7 @@ function Container() {
   useEffect(() => {
     async function getShowData() {
       try {
-        let res = await CallAPI.searchShows(query);
+        let res = await CallAPI.searchShows(searchQuery);
         if (res.length === 0) {
           setIsLoading('');
         } else {
@@ -34,7 +35,7 @@ function Container() {
       }
     }
     if (isLoading === 'search') { getShowData() };
-  }, [isLoading, query, searchResults]);
+  }, [isLoading, searchQuery, searchResults]);
 
   // select random episode for one show
   useEffect(() => {
@@ -74,14 +75,10 @@ function Container() {
     if (isLoading === 'multi') { pickRandomFromShows() };
   }, [randomShowList, isLoading, selections]);
 
-  // search form handling
-  const handleChange = evt => {
-    setQuery(evt.target.value);
-  }
-
   // search form submit handling
-  const handleSubmit = evt => {
-    evt.preventDefault()
+  const handleSubmit = query => {
+    setSearchResults([]);
+    setSearchQuery(query);
     setIsLoading('search');
   }
 
@@ -97,24 +94,7 @@ function Container() {
     setSelections(selections => [...selections, show]);
   }
 
-  // search result list
-  const renderResults = () => {
-    if (Array.isArray(searchResults)) {
-      return searchResults.map(show => {
-        // show can only be added once, and set limit of shows to 5
-        const isDisabled = selections.includes(show) || selections.length === 5;
-        return <SearchResultItem
-          key={show.id}
-          show={show}
-          getRandomEpisode={getRandomEpisode}
-          handleSelection={handleSelection}
-          isDisabled={isDisabled}
-        />
-      })
-    } else {
-      return <h3>No results found.</h3>;
-    }
-  }
+
 
   // random episode from list of shows
   const handleRandomize = async () => {
@@ -124,7 +104,7 @@ function Container() {
   return (
     <div className="relative">
 
-      { // display loading modal if we're calling the API
+      { // display spinner if we're waiting for something
         isLoading && <Spinner />
       }
 
@@ -142,17 +122,27 @@ function Container() {
       }
 
       <Header
-        query={query}
-        handleChange={handleChange}
         handleSubmit={handleSubmit}
         setInstructions={setInstructions}
       />
 
       { // if there are search results, render list of results
         searchResults.length > 0
-          ? <div>{renderResults()}</div>
-          : null
+          ? <SearchResultList
+              searchResults={searchResults}
+              selections={selections}
+              getRandomEpisode={getRandomEpisode}
+              handleSelection={handleSelection}
+            />
+          : searchQuery
+            ? <p className="text-lg text-center text-gray-100 mt-6"
+            >
+              No results found.
+            </p>
+            : null
       }
+
+      <Footer />
 
       { // if a show is selected for multi-show randomization, show list of selected shows
         selections.length > 0 &&

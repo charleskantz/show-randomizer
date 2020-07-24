@@ -12,7 +12,7 @@ function SearchResultItem({ show, handleSelection, getRandomEpisode, isDisabled 
 
   return (
     <div
-      className="w-10/12 mx-auto my-6 md:flex max-w-screen-lg last:pb-40"
+      className="w-10/12 mx-auto my-6 md:flex max-w-screen-lg"
     >
       <CardImage image={show.image?.medium} />
       <div className="w-full rounded-b-big md:rounded-b-none md:rounded-r-big p-6 flex flex-col justify-between flex-wrap leading-normal card-bg">

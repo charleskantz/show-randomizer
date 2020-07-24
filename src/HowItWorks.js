@@ -1,4 +1,5 @@
 import React from 'react';
+import CloseButton from './CloseButton';
 
 function HowItWorks({ setInstructions }) {
 
@@ -12,13 +13,7 @@ function HowItWorks({ setInstructions }) {
   return (
     <div className="modalBG bg-overlay-900" onClick={handleClose} id="modalBG">
       <div className="z-20 fixed p-6 rounded-big w-3/4 mx-auto my-6 max-w-screen-sm card-bg md:w-1/2 text-center">
-        <button
-          className="absolute top-1 right-1 border-none font-bold text-show-900 text-lg mr-1"
-          onClick={handleClose}
-          id="closeBtn"
-        >
-          x
-        </button>
+        <CloseButton handleClose={handleClose} />
         <div className="text-gray-100 text-center text-lg">
           How it Works
         </div>
